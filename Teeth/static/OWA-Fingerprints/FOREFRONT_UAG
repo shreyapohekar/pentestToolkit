@@ -1,0 +1,487 @@
+<head>
+
+<noscript>
+<meta http-equiv=refresh content="0;url=/InternalSite/InternalError.asp?error_code=115">
+<h3>The site cannot be accessed </h3>
+To access this site, adjust the security settings in the browser to a lower level.<br>
+<a href='/uniquesig2019e3489e4c3e6c220a4dff6e2753fd/uniquesig0/InternalSite/InternalError.asp?error_code=123' >Click here</a>
+for more information.
+</noscript>
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<title>Install and Detect</title>
+<LINK rel="STYLESHEET" type="text/css" href="/uniquesig2019e3489e4c3e6c220a4dff6e2753fd/uniquesig0/InternalSite/css/CustomUpdate/template.css">
+<script language="JavaScript" src="/uniquesig2019e3489e4c3e6c220a4dff6e2753fd/uniquesig0/InternalSite/scripts/loginTimeout.js"></script>
+</head>
+<BODY height="100%" onload="checkJava();" onunload="deleteNLSessionCookie()">
+<script>
+var bWhlClientComponents = isWhlClientComponents();
+
+function isWhlClientComponents()
+{	
+	if ("1" == 2)
+		return true;
+	else
+		return false;
+}
+
+if("1" == 1 && navigator.javaEnabled())
+{
+	//in case Java is enabled and JRE is installed this applet is used to detect JRE version
+	document.write('<applet id="checkJREApplet" name="Forefront UAG Remote Access Agent" codebase="/InternalSite/applet" code="JavaDetectorApplet.class" width=0 height=0 archive="detectJava.jar"></applet>')
+}
+</script>
+
+<table id="mainTable" height="98%" width="100%" style="display:none" cellspacing="0" cellpadding="0">	
+	<tr>
+		<td valign="middle">
+			<TABLE align="center" class="blueBorder" cellspacing="0" cellpadding="0">
+				<tr>
+	<td class="headerTop" colspan="3">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="header1"><b>&nbsp;</b></td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td class="headertext" colspan="3"></td>
+</tr>
+				<tr>
+					<td valign="top" class="contentleft">								
+					</td>
+					<td class="internalTD">
+						<table height="100%" width="100%" cellspacing="0" cellpadding="0">
+							<span id="appletSpan"></span>
+							<tr>
+								<td v-align="top">
+									<TABLE id="loadingTable" height="100%" border="0" class="content" cellspacing="0" cellpadding="0">
+										<tr height="20%">
+											<td id="td1" valign="top">
+												<span align="left" id="msgSpan" class="blueBold"><nobr>Downloading Endpoint Component Manager...</nobr></span><br><br>
+												<table cellpadding="0" cellspacing="0" class="nopadding">
+													<tr>
+														<td id="progressTD">
+															<table class="progressBarFrame" cellpadding="0" cellspacing="0">
+																<tr>
+																	<td id="progressBar1" class="progressBarLeft">&nbsp;</td>
+																	<td id="progressBar2" class="progressBarRight">&nbsp;</td>
+																</tr>
+															</table>
+														</td>
+														<td>&nbsp;&nbsp;<label class="blueBold" id="percents"></label></td>
+													</tr>
+												</table>
+											</td>
+											<td valign="top" rowspan="2" align="left" id="securityWarningTD">
+												<img id="securityWarningImg" width="300px" height="144px"><br>
+												<span class="blueBold" valign="bottom" align="right">If this prompt appears<br>click Install to install the components.</span>
+											</td>
+										</tr>
+										<tr height="80%">
+											<td valign="top" id="td2" class="regText">
+											<br><br>
+											Please wait a few minutes for endpoint component downloads to complete.<br>Corporate policy might require components for site access.
+											</td>
+										</tr>
+									</TABLE>
+									<TABLE id="blockedPopupTable" height="100%" border="0" class="content" cellspacing="0" cellpadding="0" style="display:none">
+										<tr>
+											<td class="bottomText" style="font-weight: bold;" valign="top" height="20%">
+											
+											</td>
+										</tr>
+										<tr>
+											<td class="bottomText" style="font-weight: bold;" height="200px" valign="top">
+											
+											</td>
+										</tr>
+									</TABLE>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top" class="contentright">							
+					</td>
+				</tr>
+				<tr>
+	<TD class="footer" colspan="3">
+		<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+		</TABLE>
+	</td>
+</tr>
+			</TABLE>
+		</td>
+	</tr>
+</TABLE>
+<script>
+//getting domain cookie path (for set and invalidate) before using install.js
+sDomainCookieAttr = " domain=.com;"
+sDomainCookieToRemove = ""
+
+sLoginURL 	  = "";
+sOrigURL	  = "https://mail.com/owa/";
+</script>
+
+<script language="JavaScript" src="/uniquesig2019e3489e4c3e6c220a4dff6e2753fd/uniquesig0/InternalSite/scripts/install.js"></script>
+
+
+<script language="JavaScript">
+//init page messages
+var WhlClientComponentsNotInstalledMsgTitle = "Install Forefront UAG endpoint components:";
+var WhlClientComponentsNotInstalledMsgDirections = "To install the components:<br>1. Right click Information Bar.<br>2. Select <b>Install This Add-On for All Users</b>, as follows:";
+var WhlClientComponentsNotInstalledMsgNote = "To install the components, you must have administrator privileges on this endpoint.<br>If you cannot see the Internet Explorer Information Bar, ensure that your browser is enabled to allow download of ActiveX components."
+var WhlClientComponentsNotInstalledMsgSkip = "To skip this installation and continue with limited functionality click here:";
+
+var DownloadAndInstallWaitMsg = "Downloading Endpoint Component Manager...";
+var FailedUpdatingMsg = "Component updates failed.";
+var TransferToLoginMsg = "Redirecting to logon page...";
+var stopStr = "Stop";
+var stopProgressStr = "Stopping...";
+var completedStr = "completed";
+var continueStr = "Continue";
+
+var WhlClientComponentsNotInstalledStatus = "Forefront UAG endpoint components were not installed...";
+
+var piiMsg = "Welcome to the Network.<br>Please Please review the following terms and conditions that govern your use of our network. Please note that your use of our network constitutes your agreement to follow and be bound by the privacy policy, legal notices and terms of use (collectively, the “Terms”).<br><br>Network Security and Security Scan:<br
+var piiOption1 = "Enable and continue with full functionality";
+var piiOption2 = "Continue with limited functionality";
+var piiCheckbox = "Don't show me this message again";
+var piiSubmit = "Continue";
+
+var isSecure = "C"
+if ("1" == "1")
+	var isSecure = "S"
+var eGapCookieName = "NLSession" + isSecure + "mail"
+
+var newWinVer = true;
+if ("False" != "True")
+	newWinVer = false;
+
+//install Endpoint Component Manager
+if (bWhlClientComponents && getCookie("WhlInstall") != "False")
+{
+	//Don't try to install on old Windows version
+	if ("False" != "True")
+		document.cookie = "WhlInstall=False; path=/;";
+
+	if (isNewDM() || !newWinVer)
+		WhlInstallComponentManager('');
+	else
+		WhlInstallComponentManager('');
+}
+
+function isNewDM()
+{
+	var bNewDM = true;
+
+	try
+	{
+		testObj = new ActiveXObject("ComponentManager.Installer.2");
+	}
+	catch(e)
+	{
+		bNewDM = false;
+	}
+
+	return bNewDM;
+}
+
+//popup blocker launching function
+function launchAfterBlock()
+{	
+	if (isPostValidate)
+		startAutoLaunch();
+	else if (isStartApp)
+	{
+		LaunchStartApp();
+		setPageView();
+		removeProgress();
+		setMessage("Launching applications...");
+		hideAppletLauncher();
+		//for the case when using !http application as initial application
+		setTimeout("document.getElementById('mainTable').style.display = 'none';", 3000);
+	}
+}
+
+function Install(sURL)
+{	
+	if (getCookie("WhlInstall") != "False")
+	{
+		var sAskBrowserRestart="You are about to install Forefront UAG endpoint components. After installation all open browser windows will be closed, and the browser will restart. Do you want to proceed?";
+		var bPersistCookie="1";
+		//If not using authenitcation at all, or session is not authenticated yet, don't persist the cookie:
+		if ("0" == "0"  || "-1" == "0")
+			bPersistCookie="0";
+
+		//component manager checks for component updates
+		WhlUpdateComponents("NLSessionSmail=q7SiR6oco8RWAaJ3tTY8V90cvc0mBvWsgEMern/WeuVmBVP801848smFcWCMq5DqpowwzVRcUeTOb7L1bts/xQJrqnZt2LcGyUXSML5nzWrAkP49VkhFgf3QhC0rdN9f",sURL,sAskBrowserRestart,"mail","1", bPersistCookie,"1");
+	}
+}
+
+function getMessage(eNotify)
+{	
+	switch(eNotify)
+	{
+		case 1:
+			return("Downloading and extracting" + " ");
+		case 2:
+			return("Downloading and extracting" + " ");
+		case 8:
+			return("Installing" + " ");
+	}
+}
+
+var errorStr = "";
+
+function getErrorMessage(eNotify)
+{
+	switch(eNotify)
+	{
+		case 1:
+			return("The following component cannot be downloaded:" + " ");
+		case 2:
+			return("The following component cannot be extracted:" + " ");
+		case 4:
+			//Invalid file checksum
+			return("The following component cannot be installed:" + " ");
+		case 8:
+			return("The following component cannot be installed:" + " ");
+		case 16:
+			return("The following component cannot be registered:" + " ");
+		case 32:
+			return("File in use:" + " ");
+		case 64:
+			return("The endpoint configuration file cannot be updated:" + " ");
+		default:
+			return "";
+	}
+}
+</script>
+
+<SCRIPT FOR=whaleClientComponentManager EVENT="SetProgress(progress,bDownload)" LANGUAGE="JavaScript">
+if (bWhlClientComponents)
+	setProgress(progress)
+</SCRIPT>
+
+<SCRIPT FOR=whaleClientComponentManager EVENT="FileNotification(compName, fileName, fileVer, eNotify)" LANGUAGE="JavaScript">
+//var strFile = getMessage(eNotify) + compName + " (" + fileName + ")";
+if (bWhlClientComponents)
+{
+	var strFile = getMessage(eNotify) + "Forefront UAG endpoint components...";
+	setMessage(strFile);
+}
+</SCRIPT>
+
+<SCRIPT FOR=whaleClientComponentManager EVENT="FileError(compName, fileName, fileVer, eNotify)" LANGUAGE="JavaScript">
+if (bWhlClientComponents)
+{
+	if(eNotify!=32)	//32 = file in use error - don't show it...
+	{
+		errorStr += getErrorMessage(eNotify) + compName + " (" + fileName + ")\n";
+	}
+}
+</SCRIPT>
+
+<script language="JavaScript" src="/uniquesig2019e3489e4c3e6c220a4dff6e2753fd/uniquesig0/InternalSite/scripts/detection.js"></script>
+
+<script>
+var isStartApp = false;
+var isPostValidate = false;
+var isInstallAndDetect = true;
+var timeoutURL = "/InternalSite/InternalError.asp" + "?error_code=117";
+
+function checkJava()
+{
+	//Launching timeout on page
+	getWhlCookie();
+	//testing if JRE is installed
+	if ("1" == 1)
+	{
+		bDeleteNLSessionCookie = false;
+		var bJavaDetected = false
+
+		//navigator.javaEnabled() is true only if:
+		//1. Browser settings enable Java
+		//2. JRE is installed
+		if(navigator.javaEnabled())
+		{
+			var oApplet = document.getElementById("checkJREApplet");
+			if (oApplet)
+			{
+				try
+				{
+				    if (oApplet.checkJava())
+				        bJavaDetected = true;
+				}
+				catch(e)
+				{}
+			}
+		}
+		if (!bJavaDetected)
+		{
+			setCookie("WhlInstall", "False");
+			var sJavaError = "Site functionality may be limited because of the following:";
+			sJavaError += "<li>Your browser does not allow Java applets to run.</li>";
+			sJavaError += "<li>The Java Runtime Environment (JRE) is not installed on the endpoint, or the installed JRE version is older than version 1.5.</li>";
+			sJavaError += "To resolve these issues:";
+			sJavaError += "<li>Configure the browser settings to allow Java applets to run, and then access this site again.</li>";
+			sJavaError += "<li><a href='http://www.java.com'>Download and install</a> JRE 1.5 (or higher).</li>";
+			sJavaError += "Alternatively, <a href='javascript:WhlTransferToLogin()'>continue</a> to the logon page with limited site functionality.";
+			viewJavaError(sJavaError);
+			return;
+		}
+		else
+			installAndDetectInstall();
+	}
+	else
+		installAndDetectInstall();
+}
+
+function installAndDetectInstall()
+{
+	if (bWhlClientComponents)
+	{
+		SetClientComponentsUILanguage('en-US');
+		Install('/internalsite/installxml.asp?stage=1&uninstall_lln=0&remove_lln=0&lln_mode=0&use_wio=0&site_name=mail&secure=1&force_lln=0');
+	}
+	
+	if ("1" == 1 || bWhlClientComponents)
+	{
+		//Check PII if needed before detection
+		if ("0" == 0)
+		{
+			setPIICookie(2);
+			Detect();
+		}
+		else if(getCookie("WhlPII") == 1)
+			Detect();
+		else 
+			PII();
+	}
+}
+
+var DetectingMsg = "Checking for endpoint compliance...";
+var DetectingDone = "The endpoint compliance check was completed. Sending compliance results to the server...";
+
+function isUsingNAP()
+{
+	if ("0" == "-1")
+		return true;
+	else
+		return false;
+}
+
+function PII()
+{
+	if (bWhlClientComponents)
+	{
+		if (isDetectionObjExist())
+		{
+			setPageView();
+			removeProgress();
+			showUI();
+			setTimeout("ViewPIIMsg()", 1);
+		}
+		else if (isDMObjExist())
+			ContinueWithoutDetection();
+	}
+	else //Java Applet
+	{
+		setPageView();
+		removeProgress();
+		showUI();
+		setTimeout("ViewPIIMsg()", 1);
+	}
+}
+
+function Detect()
+{
+	if (bWhlClientComponents)
+	{	
+		if (isDetectionObjExist() && isDMObjExist())
+		{
+			setPageView();
+			removeProgress();
+			setMessage(DetectingMsg);
+			showUI();
+			//detect
+			setTimeout("doDetect()", 1);
+		}
+		else
+		{
+			alertNotInstalled();
+		}
+	}
+	else
+	{
+		//use JavaApplet
+		setPageView();
+		removeProgress();
+		setMessage(DetectingMsg);
+		showUI();		
+		//detect
+		setTimeout("doDetectUsingApplet()", 1);
+	}
+}
+
+var sNonce = "E7CC05A3030BA383B629523A3C23811D4967328310C9AB97ED242D25C950451B";
+var sCustomDetectionScripts = "";
+var sNumbersDecimalSymbol = ".";
+var sSiteAamHostsList = "";
+
+function doDetect()
+{
+	if (WhlDetect(sNonce,"mail","NLSessionSmail=q7SiR6oco8RWAaJ3tTY8V90cvc0mBvWsgEMern/WeuVmBVP801848smFcWCMq5DqpowwzVRcUeTOb7L1bts/xQJrqnZt2LcGyUXSML5nzWrAkP49VkhFgf3QhC0rdN9f",1,sCustomDetectionScripts,sNumbersDecimalSymbol,isUsingNAP(),true,whaleClientComponentManager,sSiteAamHostsList))
+		ContinueAfterDetection();
+	else
+		ContinueWithoutDetection();
+}
+
+function doDetectUsingApplet()
+{
+	LaunchJavaApplet(sNonce,"mail","NLSessionSmail=q7SiR6oco8RWAaJ3tTY8V90cvc0mBvWsgEMern/WeuVmBVP801848smFcWCMq5DqpowwzVRcUeTOb7L1bts/xQJrqnZt2LcGyUXSML5nzWrAkP49VkhFgf3QhC0rdN9f",1,sCustomDetectionScripts,sNumbersDecimalSymbol,sSiteAamHostsList,true,isUsingNAP(),true);	
+}
+
+function ContinueAfterDetection()
+{
+	//INSTALL_AND_DETECT_REDIRECT_ASP is used only after detection, and works only on Windows 
+	
+	    //try catch block for the case when user is redirected to error page while trusted site popup is on.
+	    try
+	    {
+		    if (userGotMessage != true)
+			    WhlTransferToLogin();
+	    }
+	    catch(e)
+	    {}
+	
+}
+
+function ContinueWithoutDetection()
+{
+	//INSTALL_AND_DETECT_REDIRECT2_ASP is used only when there's no detection, and works only on Windows
+	
+		WhlTransferToLogin();
+	
+}
+
+function viewJavaError(sJavaError)
+{
+	setPageView();
+	removeProgress();
+	setMessage(sJavaError);
+	showUI();
+}
+
+var sSecurityExceptionError = "The Remote Access Agent component was not installed on the endpoint.<br>";
+sSecurityExceptionError += "Site functionality may be limited.<br>";
+sSecurityExceptionError += "Close the browser and access this site again, or";
+sSecurityExceptionError += " <a href='javascript:ContinueWithoutDetection()'>" + "continue</a>";
+sSecurityExceptionError += " to the logon page with limited functionality.";
+</script>
+</body>
+</HTML>

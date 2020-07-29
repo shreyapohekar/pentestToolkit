@@ -1,0 +1,2204 @@
+
+-/-
+SSLv3
+Apache httpd
+Apache
+Netgear broadband router or ZyXel VoIP adapter ftpd
+Allegro RomPager
+Netgear broadband router or ZyXel VoIP adapter telnetd
+
+ISC BIND
+Cisco SNMP service
+Microsoft HTTPAPI httpd
+
+Microsoft Windows RPC
+Microsoft IIS httpd
+OpenSSH
+
+Microsoft Terminal Service
+
+SNMPv1 server
+net-snmp
+Exim smtpd
+Dropbear sshd
+nginx
+
+Thomson TR-69 http config
+AkamaiGHost
+SNMPv3 server
+
+TLSv1
+Actiontec TR069 remote access
+WSTL CPE 1.0
+lighttpd
+MySQL
+Dovecot imapd
+ProFTPD
+Pure-FTPd
+Postfix smtpd
+dnsmasq
+Dovecot pop3d
+Portable SDK for UPnP devices
+Linux telnetd
+D-Link DSL-2750U ftp firmware update
+micro_httpd
+Microsoft ftpd
+GoAhead-Webs httpd
+Blue Coat rtsp proxy
+vsftpd
+Courier Imapd
+T-Com Speedport
+mini_httpd
+Arris Touchstone cable modem http config
+Dancer ircd
+Boa HTTPd
+Port25 PowerMTA mail gateway http admin
+gSOAP soap
+ActionTec TR-069 remote access
+BusyBox telnetd
+Apache Tomcat/Coyote JSP engine
+
+Intel UPnP reference SDK
+Alcatel/Thomson SpeedTouch DSL router admin interface
+Cisco 1721 router telnetd
+Microsoft Windows 98 netbios-ssn
+MikroTik bandwidth-test server
+AIM or ICQ server
+Sendmail
+
+AVM FRITZ!Box Fon WLAN 7170 SIP
+thttpd
+VNC
+Microsoft ESMTP
+ActionTec DSL http config
+GoAhead-Webs embedded httpd
+HP-UX smux
+Lexmark SNMP service
+SonicWALL
+Squid http proxy
+
+Courier pop3d
+TR-069 remote access
+Secure Computing Sidewinder firewall http admin
+MikroTik router ftpd
+rhttpd
+osiris host IDS agent
+Cisco SSH
+OpenDNS Updater
+
+AVM FRITZ!Box Fon WLAN 7320 SIP
+FileZilla ftpd
+Cisco SLA Responder
+MiniServ
+AVM FRITZ!Box Fon WLAN 7390 SIP
+
+Microsoft Exchange smtpd
+AVM FRITZ!Box Fon WLAN 7112 SIP
+Cisco IOS http config
+Port25 PowerMTA web monitor
+AVM FRITZ!Box Fon WLAN 7240 SIP
+DNS-based service discovery
+utelnetd
+vsftpd (before 2.0.8) or WU-FTPD
+Microsoft IIS SSL
+Pirelli NetGate VOIP v2 broadband router telnetd
+AVM FRITZ!Box Fon WLAN 7270 v3 SIP
+AVM FRITZ!Box WLAN 7170
+Symantec Enterprise Security manager smtpd
+Microsoft DNS
+Cisco IOS telnetd
+Broadcom BCM96338 ADSL router telnetd
+NET-DK
+NASLite-SMB/Sveasoft Alchemy firmware telnetd
+Thomson TWG850 router http config
+DD-WRT milli_httpd
+T-Com Speedport W 503V
+Cisco router telnetd
+AVM FRITZ!Box Fon WLAN 7270 v2 SIP
+Apache Jserv
+Serv-U ftpd
+
+Alcatel/Thomson SpeedTouch ADSL http config
+Microsoft Windows RPC over HTTP
+Broadcom BCM96328 DSL router telnetd
+AVM FRITZ!Box Fon WLAN 7050 SIP
+Apple remote desktop vnc
+PostgreSQL DB
+qmail pop3d
+
+poppassd
+D-Link or USRobotics ADSL router firmware update ftpd
+AVM FRITZ!Box WLAN 7270
+Lotus Domino Console
+D-Link DSL-2640B ADSL router telnetd
+Virata-EmWeb
+Quagga routing software
+Apple AirPort or Time Capsule admin
+Check Point Firewall-1 telnetd
+uc-httpd
+Microsoft Windows XP netbios-ssn
+MikroTik RouterOS sshd
+MikroTik router config httpd
+Avtech AVN801 network camera
+TLS
+
+Check Point Firewall-1 ftpd
+FRITZ!Box Fon WLAN 7390 WAP ftpd
+Digifort Enterprise 6.5 httpd
+webs
+Hikvision-Webs
+AVM FRITZ!Box Fon WLAN 7113 SIP
+Draytek Vigor ADSL router telnetd
+IdeaSmtpServer smtpd
+Cisco SIP Gateway
+Broadcom BCM96328 ADSL router telnetd
+NSD
+uhttpd
+Cisco telnetd
+GNU Inetutils FTPd
+
+UW imapd
+BT HomeHub
+Waveplus HTTPD
+GeoVision GeoHttpServer for webcams
+ARCserve Discovery
+Darwin Streaming Server
+Point to Point Tunneling Protocol
+SonicWALL firewall http config
+MikroTik router http config
+TeamViewer httpd
+NetBox httpd
+MailEnable smptd
+Netwave IP camera http config
+GlobespanVirata ftpd
+Alcatel Speedtouch ADSL router ftpd
+Maverick
+Windows 2003 Kerberos
+bftpd
+Piolink Switch
+
+CentOS
+CUPS
+HP H3C SR8808 SecBlade firewall module telnetd
+AVM FRITZ!Box WLAN 7320
+Microsoft SQL Server 2000
+NcFTPd
+sw-cp-server httpd
+Broadcom BCM96338 DSL router telnetd
+RealVNC
+Blue Coat proxy server
+Symantec firewall http proxy
+
+Cross Web Server
+AVM FRITZ!Box Fon WLAN 7141 SIP
+Kucci
+
+DrayTek Vigor 2800-series ADSL router httpd
+Ultr@VNC
+pdnsd or Tor DNSPort
+SCS sshd
+Jetty
+VxWorks ftpd
+AVM FRITZ!Box WLAN 7390
+Connection rejected or failed; connections possibly ok
+AVM FRITZ!Box WLAN 7113
+MIT Kerberos
+Mbedthis-Appweb
+Heimdal Kerberos
+MailEnable POP3 Server
+smartcds
+WebProxy
+
+Linksys wireless-G WAP http config
+PowerDNS
+Samba smbd
+MikroTik WinBox management console
+AVM FRITZ!Box WLAN 7240
+Linux
+AIM
+Apple AFP
+Microsoft SQL Server 2005
+Microsoft Windows Media Server
+Netgear DG632 router ftpd
+H3C switch telnetd
+Socks4A
+WinPcap remote packet capture daemon
+IdeaImapServer imapd
+Rapidsite/Apa httpd
+WU-FTPD
+IdeaWebServer httpd
+FreeBSD ftpd
+Westell cable modem http config
+LiteSpeed httpd
+VMware Authentication Daemon
+Mac OS X kerberos-sec
+AllegroSoft RomSShell sshd
+WindWeb
+Netopia ADSL router telnetd
+T-Com Speedport W 920V
+PowerMTA smtpd
+Netwave webcam http config
+M5T SIP Stack/4.1.2.2
+Ubee Cable Modem
+MS .NET Remoting services
+Netgear CVG834G cable modem http config
+Check Point SVN foundation httpd
+pidentd
+Conexant-EmWeb
+Cisco router tftpd
+Memcached
+Mini web server
+Quagga routing software
+BusyBox httpd
+AVM FRITZ!Box WLAN 7050
+D-Link DIR-300 WAP http admin
+IdeaPop3Server pop3d
+Mathopd httpd
+FRITZ!Box Fon WLAN 7270v3 WAP ftpd
+
+
+
+RealVNC Enterprise
+Intoto httpd
+Firebird RDBMS
+Green Packet DX230 WAP telnetd
+Microsoft Exchange 2003 pop3d
+Openwall GNU/*/Linux telnetd
+RealVNC Personal
+ipOS
+F5 BIG-IP load balancer http proxy
+Linksys WRT45G modified dropbear sshd
+Huawei VRP sshd
+Checkpoint FireWall-1 Topology
+AVM FRITZ!Box WLAN 7112
+http server 1.0
+SpeedStream router telnetd
+AVM FRITZ!Box WLAN 7141
+Cisco PIX sanitized smtpd
+Chunjs
+
+Ubicom
+Subversion
+Microsoft Exchange 2007-2010 imapd
+Broadcom BCM96348 ADSL router telnetd
+QIP instant messenger SIP
+RapidLogic
+Dovecot DirectAdmin pop3d
+Seagate GoFlex NAS device sshd
+Microsoft SQL Server 2008 R2
+Pervasive.SQL Server - Relational Engine
+FRITZ!Box Fon WLAN 7270v2 WAP ftpd
+NTP
+Perfectone IP301 VoIP phone http config
+Alt-N MDaemon mail server
+Microsoft Exchange 2007-2010 pop3d
+Huawei STC router telnetd
+ZyXEL ZXDSL 831CII ADSL modem telnetd
+MongoDB
+rblsmtpd wrapped smtpd
+MailEnable imapd
+Microsoft Windows UPnP
+Dreambox ftpd
+Panasonic mfpscdl.exe service
+lancom sshd
+Microsoft ISA httpd
+ADTRAN
+Huawei Home Gateway
+Microsoft Exchange Server 2003 imapd
+Nepenthes honeypot netbios-ssn
+Boa httpd
+Ericsson Timestep Permit VPN
+Microsoft Windows XP telnetd
+SMCD3GNV/... UPnP/1.0 MiniUPnPd/1.4
+Ambit cable modem telnetd
+WangWnagSimpleServer
+Qpopper pop3d
+oftpd
+Sierra Wireless Raven XE V2221E-V 3G WAP http admin
+Oracle TNS Listener
+Microsoft IIS
+Switch
+Router
+ZTE H220N router http config
+Lanswitch - V100R003 HttpServer 1.1
+nginx imap proxy
+Synology DiskStation NAS ftpd
+World Client WDaemon httpd
+Cisco/3com IPSSHd
+OpenSSL
+NetApp NetCache http proxy
+Lotus Domino httpd
+Zimbra Collabration Suite pop3d
+NetScreen sshd
+Symantec Raptor Firewall ftpd
+CherryPy httpd
+alphapd
+Gene6 ftpd
+Eggdrop IRC bot console
+i3 micro or Linksys SPA400 VoIP gateway http config
+Cyrus imapd
+Citrix Metaframe XP ICA
+AVM FRITZ!Box Fon WLAN 7270 SIP
+SMC SMC2870W Wireless Ethernet Bridge
+AVM FRITZ!Box Fon WLAN 7360 SL SIP
+SMC8013WG cable modem/WAP telnetd
+AVM FRITZ!Box WLAN 3270
+Google httpd
+HP-ChaiSOE
+AVM FRITZ!Box Fon WLAN 7340 SIP
+Barracuda Networks Spam Firewall smtpd
+Zmodo DVR
+Realtron WebServer 1.1
+CCProxy
+VxWorks telnetd
+UW Imap pop3d
+Linksys router http config
+Microsoft SQL Server 2008
+DVR Systems webcam http interface
+FlexLM license manager
+Motorola VT1000v VOIP Adapter telnetd
+Broadcom BCM96828 ADSL router telnetd
+IMail NT-ESMTP
+VMware ESXi Server httpd
+Microsoft Windows XP microsoft-ds
+Veritas Backup Exec ndmp
+IP_SHARER WEB
+MDaemon pop3d
+Zoom X5 ADSL modem tftpd
+Huawei Home Gateway 510
+Pocket CMD telnetd
+TwistedWeb httpd
+M5T SIP Stack/4.1.7.9
+
+ZXDSL 831II
+T-Com Speedport W 722V
+cloudflare-nginx
+AVM FRITZ!Box Fon WLAN 7170 Annex A SIP
+Unreal ircd
+T-Com Speedport W 721V
+Thin
+Apple Time Capsule AFP
+Embedded HTTP Server
+ipop3d
+Alt-N MDaemon imapd
+Draytek Vigor ADSL router webadmin
+MiniUPnP
+D-Link DVG-series VoIP gateway telnetd
+Java RMI
+OwnServer1.0
+Check Point FireWall-1 authenticated RLogin server
+SunSSH
+Netgear DGN1000 router http config
+Vulcan
+uTorrent UDP listener
+DrayTek Vigor router ftpd
+Cisco-MWEB
+Cyrus pop3d
+Samba nmbd
+IMail pop3d
+HP JetDirect ftpd
+GoAhead-Webs
+Tomato WAP firmware httpd
+UTT Hiper 2610 router telnetd
+MikroTik RouterOS named or OpenDNS Updater
+Lotus Domino server
+IP_SHARER WEB 1.0
+ejabberd
+Sipek VoIP
+NetWare dnsd
+Cdn Cache Server V2.0
+HP JetDirect printer telnetd
+SmarterMail imapd
+TP-LINK WR740N WAP http config
+GM Streaming Server httpd
+Windows qotd
+AOLserver httpd
+Netgear DG834G router http config
+NetPort httpd
+Arris
+Microsoft Windows Mobile netbios-ssn
+MikroTik http proxy
+Apple AirTunes rtspd
+Muddleftpd
+FRITZ!Box Fon WLAN 7240 WAP ftpd
+Nagios NSCA
+Huawei HG655b DSL router telnetd
+PDR-M800
+Netwave Cable Modem
+FRITZ!Box Fon WLAN 7320 WAP ftpd
+SurgeFTPd
+OpenLDAP
+Caucho Resin JSP engine
+IBM HTTP Server
+TP-LINK Router
+SmarterMail pop3d
+SHOUTcast server
+HTTPD 1.0
+tnftpd
+dcs-lig-httpd
+gws
+Gemtek
+hMailServer imapd
+Microsoft Windows 2003 or 2008 microsoft-ds
+Solaris ftpd
+
+Cisco fingerd
+NAI EPO Agent framework
+Icecast streaming media server
+WEB SERVER
+DPC2203-120730
+Dreambox media device telnetd
+Motorola SBV5220-SIP-1.2.6-SCM-05-SHTW
+Netgear WGR614v7 WAP http config
+hMailServer pop3d
+Apple ODS DVD/CD Sharing Agent httpd
+ZXDSL 831II
+Generic router http config
+Cisco/NetApp logind
+Microsoft Windows Wins
+TP-LINK WR841N WAP http config
+Netgear DG834 router http config
+Huawei Technologies Co., Ltd.
+ChipPC Extreme httpd
+FRITZ!Box Fon WLAN 7170 WAP ftpd
+D-Link DVS-4088S, DVS-5088S, or DVG-7062S VoIP gateway http config
+Sagem F@st 2604 ADSL router telnetd
+Aethra SV1242 WAP
+TinyDNS
+VNC Server Enterprise Edition httpd
+OpenVPN
+DrayTek Vigor 2820 ADSL router ftpd
+EdgePrism
+Indy
+Gadspot/Avtech AV787 webcam http config
+GlobespanVirata telnetd
+DD-WRT telnetd
+Broadcom BCM96368 ADSL router telnetd
+Airspan MiMAX WiMAX WAP logind
+Microsoft lpd
+ZXDSL 831CII
+thin 1.2.11 codename Bat-Shit Crazy
+AVM FRITZ!Box Fon WLAN 7360 SIP
+RapidLogic httpd
+BSD/Linux fingerd
+Netgear WGR614v9 WAP http config
+USRobotics/Sagem router telnetd
+MDaemon smtpd
+Zimbra imapd
+Cisco ASR 9010 router telnetd
+RealOne Server
+Microsoft NNTP Service
+Netatalk
+Broadcom BCM96358 ADSL router telnetd
+lpd
+Allied Telesyn Rapier switch telnetd
+Tinyproxy
+Mocana embedded SSH
+BSD-derived telnetd
+sw-cp-server
+Netsaint Status Daemon
+NetApp DFM httpd
+MS-SDK-HttpServer
+Virgin Super Hub media player http config
+OpenAFS
+psyBNC
+Nucleus
+Pirelli/Pirelli WLAN IAD-1.38S-M
+Oracle VM Manager
+IMail imapd
+Allegro-Software-RomPager
+Enterasys XSR Security Router telnetd
+TP-LINK WR340G WAP http config
+Zimbra http config
+Huawei HG532c ADSL router http config
+Linksys PAP2 VoIP http config
+Vivotek IP7131 or IP7138 webcam rtspd
+Slingbox remote streaming httpd
+HP Proliant System Management
+PWS httpd
+DrcomServer1.0
+Huawei Quidway Eudemon firewall telnetd
+Asterisk PBX
+Dreambox httpd
+Tornado vxWorks ftpd
+Virata-EmWeb httpd
+Boa
+Kerio Connect smtpd
+OneAccess ONE100A router telnetd
+Billion or D-Link ADSL router telnetd
+Cyrus pop3sd
+Grandstream HT502 VoIP router http config
+HTTP Software 1.1
+Billion 741GE ADSL router
+Zimbra pop3d
+Agranat-EmWeb
+SiemensGigaset-Server
+Haproxy http proxy
+AVM FRITZ!Box
+Sharp printer tandem printing
+ZXDSL 931WII
+Helix DNA Server
+Xavi 7768 WAP ftpd
+ZyXEL ZXDSL 831CII ADSL modem telnetd
+XDMCP
+MochiWeb
+Router Webserver
+D-Link router/Airlink NAS http config
+Jabber instant messaging server
+HP LaserJet P4014 printer ftpd
+Cisco or Edge-core switch telnetd
+WYM httpd
+qpopper
+ZXR10 Carrier-class High-end Routing Switch of ZTE Corporation
+Kiss DP-558 PVR ftpd
+Airspan MiMAX WiMAX WAP telnetd
+Brother/HP printer ftpd
+Conexant ATU-R ADSL router telnetd
+IST OIS
+NET Disk/NetStore ftpd
+Cyberoam firewall sshd
+David WebBox httpd
+SafeNet Sentinel Keys License Monitor httpd
+QNAP TS-219P NAS http config
+Techno Vision Security System http config
+BladeCenter or TANDBERG Codec telnetd
+WeOnlyDo sshd
+
+VBrick 4300 video encoder telnetd
+Conexant-EmWeb
+APC SmartUPS http config
+AVM FRITZ!Box 5140
+Cyrus timsieved
+WS FTPd
+EZproxy web proxy
+Microsoft Windows Media Server
+OpenRG
+Debut embedded httpd
+COLIB_ASYNC_HTTP_SERVER
+CommuniGate Pro httpd
+Bitvise WinSSHD
+Unknown
+Motorola SBV5220-SIP-1.2.6-SCM-01-SHTW
+D-Link DCS-2130 webcam rtspd
+Apple Airport Extreme/Time Capsule AFP
+DrayTek Vigor 2820n ADSL router sshd
+AVM FRITZ!Box Fon WLAN 7570 vDSL SIP
+Lotus Domino smtpd
+Zoom X6 ADSL router telnetd
+FlashCom
+httpd 1.1
+Buffalo AirStation http config
+HP JetDirect printer webadmin
+Zope httpd
+Sandpiper Footprint http load balancer
+Fortinet VPN/firewall http config
+RealVNC
+Rifatron DVR
+Cisco ASA firewall http config
+Sun GlassFish
+A p a c h e
+AVM FRITZ!Box Fon WLAN 7390 84.05.22 SIP
+ESET NOD32 anti-virus smtp proxy
+YAMAHA-RT
+ZTE 9806H #
+Serv-U SSH Server
+AVM FRITZ!Box Fon WLAN 7270 v1 SIP
+Kerio MailServer http config
+Microsoft Windows NT netbios-ssn
+RemotelyAnywhere remote PC management httpd
+Asterisk
+Kerio Connect imapd
+Microsoft Windows USA daytime
+Openwall popa3d
+Netgear or Linksys WAP http config
+mailfront smtpd
+BarracudaHTTP
+GoAhead httpd
+Real-Time Messaging Protocol
+Alcatel 7750 SR router telnetd
+CCProxy http proxy
+Nepenthes HoneyTrap fake vulnerable ftpd
+Huawei Quidway S5624P-PWR telnetd
+Ubicom httpd
+
+D-Link ADSL router telnetd
+ShroudBNC irc-proxy
+GNU Zebra routing software
+3CX PhoneSystem PBX
+CompaqHTTPServer
+Avtech MPEG4 DVR control rtspd
+Swann DVR8-2600 security camera system httpd
+Motorola SBV5121-SIP-1.2.4-SCM-09-SHTW
+D-Link DI-524 http config
+Plan 9 tftpd
+Tridium Niagara httpd
+Fortinet VPN/firewall sshd
+AVM FRITZ!Box Fon WLAN 7113 Annex A SIP
+FortiClient firewall http config
+Netgear WNR1000v3 WAP http config
+
+Linksys WRT54GL wireless-G router http config
+Edgewater Networks Edgemarc 4562 VoIP gateway web config
+i3micro VRG VoIP adapter http config
+Microsoft Foundation Class httpd
+Brother/HP printer telnetd
+OpenBSD ftpd
+Crestron MPS-200 AV routing system http config
+IceWarp smtpd
+Wildfire XMPP Client
+Grandstream HT-502 VoIP router telnetd
+Serv-U
+Verizon FIOS Actiontec http config
+Wind River FTP server
+Cyberoam UTM firewall telnetd
+MegaBit Gear ftpd
+WebServer
+Polycom ViewStation Video Conferencing telnetd
+uTorrent utserver web interface
+MyDNS
+XMail SMTP server
+FlashCom httpd
+HiQ Flash Server
+Microsoft Windows 2003 POP3 Service
+Cisco LocalDirector telnetd
+ApplePasswordServer pop3 password change daemon
+Web-Server httpd
+Sagem F@st router httpd
+Cyrus imapd
+HTTP
+Gnway Web Server
+WebServer(IPCamera_Logo)
+Foundry Networks
+TRENDnet/Hawking webcam ftpd
+antid
+Web-Server httpd
+Oracle Application Server 10g httpd
+Huawei Technologies Co.,Ltd. 2002-2007. All rights reserved.
+EZPacket Web Server
+linux
+Net-OS 5.xx UPnP
+mt-daapd DAAP
+Network Associates ePolicy Orchestrator
+Pervasive.SQL Server - Btrieve Engine
+uTorrent WebUI
+WEBrick httpd
+SonicWALL SSL-VPN http proxy
+NetPower HTTPd
+Huawei AR28-09 router telnetd
+Fortinet FortiGate 50B firewall http config
+KWS-1043N-Svr
+HP ProLiant ML350 Interactive Lights Out
+VMware ESXi 4.1 Server httpd
+Indy httpd
+Huawei SmartAX MT880 ADSL router telnetd
+HTTP Server
+Talk server
+FC
+Dovecot timsieved
+Zabbix Monitoring System
+Dionaea honeypot ftpd
+D-Link/Airlink IP webcam http config
+ZyXEL ZyWALL USG 200 firewall http config
+ZXAN product of ZTE Corporation
+ZXR10 Carrier-Class High-end Router of ZTE Corporation
+Dantz Retrospect backup client
+ProFTPD mod_sftp
+Ntop web interface
+Microsoft Windows International daytime
+T-Com Speedport W 701V
+Unbound
+BSD TCP Wrappers
+D-Link DI-804HV http config
+HTTPServer
+Fortinet FortiGuard http proxy
+iDVRhttpSvr
+Apple Remote Events
+Microsoft Exchange 2000 imapd
+Kerio imapd
+PostgreSQL
+TightVNC
+Edgewater Networks Edgemarc 4500 series VoIP gateway SIP
+HP-UX identd
+Webs
+Tenor Multipath Switch ftpd
+W3MFC
+WebLogic httpd
+Microsoft IIS ftpd
+NLNet Labs Unbound
+Motorola SBV5121-SIP-1.2.6-SCM-01-SHTW
+xrdp
+Lusca
+FRITZ!Box 6360 cable modem ftpd
+Ricoh maintenance telnetd
+Microsoft-HTTPAPI
+JetDirect
+Foundry Networks telnetd
+HP Jetdirect httpd
+AVM FRITZ!Box WLAN 7140
+Vtun Virtual Tunnel
+EdgePrismSSL
+Bacula file daemon
+WinWebMail smtpd
+Multitech MultiVoip 410 VoIP gateway ftpd
+HP Integrated Lights-Out http config
+Web Server
+Linksys WRT54G wireless-G router http config
+Airlink 101 or TRENDnet TVIP-422w webcam http config
+SinforHttpd
+Timbuktu remote desktop
+CA Secure Socket Adapter
+ZyXEL ZyWALL sshd
+Lotus Domino POP3 server
+3Com SuperStack 3 Switch 4500 or Huawei Quidway AR28-09 WAP telnetd
+Ricoh rshd
+AVM FRITZ!Box Fon WLAN 7270 v3 74.05.21 SIP
+Sun Solaris fs.auto
+pdnsd
+IBM WebSphere Application Server
+ZTE Full Service Access Platform #
+DPX2203-120730
+Motorola SBV5121-SIP-1.2.6-SCM-05-SHTW
+Nucleus/4.3 UPnP/1.0 Virata-EmWeb
+CommuniGate Pro
+SmarterTools httpd
+LuCI Lua http config
+Canon printer http config
+Citrix Metaframe ICA Browser
+Abyss httpd
+authd
+Server
+Quintum Tenor A800 VoIP gateway CDR telnetd
+Oracle MTS Recovery Service
+HP StorageWorks AG118A tape autoloader http config
+H3C-Miniware-Webs
+USI
+siyou server
+IceWarp pop3d
+Microsoft Windows netbios-ssn
+TwonkyMedia UPnP
+AXIS 207W or 212 PTZ network camera rtspd
+AVM FRITZ!Box Fon WLAN 7270 v3 74.05.22 SIP
+Dreambox DVB telnetd
+Linksys E1200 WAP http config
+IPG
+Nokia N86 phone SIP
+Huawei WiMAX CPE
+fec
+
+TRENDnet TV-IP110w or TV-IP422W webcam display httpd
+Samba SWAT administration server
+TibetSystem Server 2.0
+Rumpus httpd
+PSIWBL
+DansGuardian HTTP proxy
+AVM FRITZ!Box WLAN
+webserver
+letv
+TRENDnet TV-IP100 or TV-IP110 webcam display httpd
+Huawei Home Gateway 520
+Netgear WNR2000v2 WAP http config
+FRITZ!Box WLAN 3370 WAP ftpd
+ASSP (Anti-Spam SMTP Proxy) httpd
+Broadcom BCM96358 DSL router telnetd
+D-Link 2640T DSL router http config
+Veritas Netbackup java listener
+Fedora
+Lotus Domino imapd
+Mac OS X Server serialnumberd
+Oracle XML DB Enterprise Edition httpd
+Eudemon Server 1.0
+Web-Server
+Microsoft Distributed Transaction Coordinator
+D-Link DIR-600 WAP http config
+Mac OS X Server ftpd
+Green Packet DX230 WAP http config
+WinWebMail pop3d
+Apple QuickTime Streaming Server
+D-Link DSL-500B telnetd
+cvs pserver
+Communigate Pro SMTP
+CloudFront httpd
+HP HTTP Server
+Citrix Xen Simple HTTP Server
+InspIRCd
+Broadcom BCM96333 DSL router telnetd
+CCProxy socks proxy
+MailMax pop3d
+use home media gateway
+a_63
+AVM FRITZ!Box WLAN 7360
+spamd smtpd
+Virata-EmWeb
+Netsaint status daemon
+Java RMI
+ghttpd
+HttpFileServer httpd
+Tandberg MXP Video Conference appliance telnetd
+Network Camera
+zFTPServer
+Viking
+WMI
+TP-LINK WR741N WAP http config
+Trend Micro OfficeScan Antivirus http config
+Mongrel httpd
+ACOS HTTPD
+TwistedWeb
+HTTP Server 1.0
+ADH-Web
+Linksys E1000 WAP http config
+axhttpd
+nginx admin
+Aterm(HT)
+vm-pop3d
+ZyXEL Prestige cable modem telnetd
+Sun ONE Web Server
+Microsoft Exchange 2000 pop3d
+Oracle Remote Method Invocation
+use GaoKe MG6000 series gateway.
+AVM FRITZ!Box Fon WLAN 7140 Annex A SIP
+IBM OS/400 FTPd
+WinVNC
+Gateway-Webs
+Ultr@VNC Repeater
+SuperMicro IPMI advertiserd
+ImagiaTek
+MaraDNS
+Rhinosoft Serv-U httpd
+ATR-HTTP-Server
+Eggdrop irc bot console
+wg_httpd
+ipopd
+Sun Interactive Lights Out Manager or SuperMicro IPMI remote console
+Lexmark lpd service
+Direct Connect P2P
+Fnord httpd
+TYPSoft ftpd
+WSGIServer
+Sun GlassFish Open Source Edition
+Lancom 1721+ VPN router telnetd
+Oracle HTTP Server Powered by Apache
+Raritan KVM
+Winstone Servlet Engine
+Nortel Contivity firewall DNS
+Ncat http proxy
+Surgemail smtpd
+APC AOS cryptlib sshd
+Qpop pop3d
+AVM FRITZ!Box WLAN 7570
+ProFTPD or KnFTPD
+Speedr
+Linksys E2500 WAP http config
+
+Konica Minolta PageScope Web Connection httpd
+Netgear DG834GT router http config
+HP JetDirect telnetd
+Huawei Access Runner ADSL telnetd
+Urchin RSS aggregator
+Apache (Linux)
+Perdition imapd
+Cerberus FTP Server
+Microsoft Exchange 2003 imapd
+Microsoft Exchange 2010 smtpd
+HttpServer 1.1
+PBS/Maui Roll
+Linksys E2000 WAP http config
+Mobotix Camera http config
+MailEnable httpd
+Novell NetWare HTTP Stack
+3Com 4500 switch telnetd
+Lyris ListManager smtpd
+Apache Tomcat
+Lexmark printer http config
+MF60
+Adtran Netvanta RomCliSecure sshd
+MS .NET Remoting httpd
+AddPac AP200B VoIP gateway http config
+Alcatel Speedtouch ADSL router httpd
+WebFS httpd
+HP FTP Print Server
+AVM FRITZ!Box Fon WLAN 7170 29.04.87 SIP
+AD Network Video Dedicated Micros DVR ftpd
+TwoFTPd
+HP Officejet Pro 8500 A910 printer http config
+3Proxy http proxy
+
+DSLink 260E
+Perdition pop3 proxy
+Viking II
+Broadcom BCM96368 DSL router telnetd
+Ipswitch IMail web service
+eMule P2P
+Knopflerfish httpd
+Stanley NT500 access control system httpd
+WU-FTPD or MIT Kerberos ftpd
+Polycom SoundPoint VoIP phone http config
+TeleEye
+Microsoft Exchange 2007 pop3d
+HP Integrated Lights-Out mpSSH
+Microsoft-WinCE
+MailMarshal
+Western Digital My Book http config
+Peercast
+Transmission BitTorrent management httpd
+Dionaea honeypot MS-SQL server
+2Wire HomePortal touer http config
+Apple AirPlay httpd
+WarFTPd
+Sun Solaris fingerd
+Embedded Web Server
+BetaFTPd
+M5T UA SSP 2.0.4.6 / M5T SIP Stack/4.0.26.26
+Netgear WGR614v6 WAP http config
+Datum
+Virtual Web 0.9
+Digi USB-over-TCP bridge
+MicroDigital MDR-4600 DVR telnetd
+TornadoServer
+Oracle WebLogic Server
+Vivotek FD8134V webcam rtspd
+ZyXEL P-2601HN-F1 broadband router telnetd
+Lantronix XPort telnetd
+HP Officejet Pro 8600 printer http config
+UBEE Cable Modem
+SHOUTcast publishing port
+IceWarp webmail httpd
+Shareaza
+IBM OS/400 as-servermapd
+3Com Superstack switch telnetd
+Microsoft Exchange imapd
+Netscape Enterprise httpd
+InterNiche Technologies WebServer
+DSL MODEM
+Xerox Phaser 3500
+APC Powerchute
+uClinux-httpd
+Scientific-Altanta WebStar Cable Modem http config
+Microsoft Exchange 2007 imapd
+Netgear FVS318 router http config
+TP-LINK WR541G/542G WAP http config
+QNAP TS-659, TS-809U, or TS-859U NAS http config
+TP-LINK WR941N WAP http config
+Huawei-3Com HTTPD
+Mailfront imapfront imap proxy
+WinMX or Lopster Napster P2P client
+BlueCoat SG-400 http proxy
+Merak Mail Server smtpd
+Thomson SNMP service
+Huawei HMS Download Service
+D-Link DIR-100 http config
+WindRiver-WebServer
+Clam AV
+Sipura SPA VoIP http config
+Motorola Canopy Subscriber Module telnetd
+D-Link DCS-920 webcam http config
+HP LaserJet P2055 Series
+Dell Embedded Remote Access card httpd
+Vivotek 3102 Camera http config
+Netgear DGN2000 router http config
+WMI V5
+HP ProLiant ML110 Interactive Lights Out telnetd
+D-Link DSL-524B ADSL router
+Embedded HTTP Server.
+GNU Gatekeeper
+Samsung UE55D7000 TV http config
+TP-LINK WR543G WAP http config
+BSD ftpd
+ZTE F822 #
+GlobespanVirata-EmWeb
+ADH-Web httpd
+Novell Zen Remote Desktop
+BMC HTTP Server
+Dell Remote Access Controller 4 console
+Mbedthis-AppWeb
+Ipswitch IMail Monitor web service
+sffe
+Web
+CORBA naming service
+Zeus httpd
+eHTTP
+Allworx 6x VoIP phone smtpd
+iTALC
+FRITZ!Box Fon WLAN 7360SL WAP ftpd
+XMail pop3d
+Rumpus ftpd
+Linksys E3000 WAP http config
+HP LaserJet P1606 http config
+Microsoft-IIS
+avtech
+Xlight ftpd
+Huawei Quidway S8505 switch telnetd
+UserGate http report area
+Netsaint Windows Client
+Compaq Insight Manager HTTP server
+Linksys E4200 WAP http config
+Rex media encoder http config
+Sun Niagara httpd
+Netgear WNR3500L WAP http config
+iTunes
+ZyXEL Prestige webadmin
+Start HTTP-Server
+Accton VM1188T VoIP phone http config
+ACLogic CesarFTPd
+Netgear DG834PN router http config
+APN HTTPD V1.4
+Pike v7.8 release 517
+Varnish
+Lancom 1721+ VPN http config
+CTCFC
+webcamXP httpd
+Cisco VPN Concentrator http config
+Vivotek Network Camera
+HeiTel GmbH Web Server
+ZXR10 ZSR Serial Router of ZTE Corporation
+EWS-NIC4
+FRITZ!Box WLAN 3270 WAP ftpd
+Cisco WVC54GCA webcam rtspd
+ZXAN product C220 of ZTE Corporation
+Trolltech Troll-FTPd
+EIS System!
+Symantec Messaging Gateway smtpd
+D-Link Internet Camera
+Cherokee httpd
+Seagate Black Armor 440 NAS http config
+Bluecat Networks Proteus IPAM or Enterasys Dragon IDS http config
+GlobalScape CuteFTP sshd
+Dreambox DVB Enigma httpd
+MT800
+Tengine
+Maipu-Webs
+LANCOM 1611
+D-Link DCS-900 webcam http config
+David-WebBox
+Fortinet FortiGate named
+82170290
+AVM FRITZ!Fon 7150
+SpeedTouch DSL router http config
+HP Officejet 6500 E710n-z printer http config
+FRITZ!Box http config
+GlobespanVirata httpd
+CalendarServer
+Rhinosoft Serv-U FTP
+Broadcom BCM96345 ADSL router telnetd
+Datacom DM706CR router telnetd
+KEDACOM-Webs
+Panasonic BB-HCM331 Network Camera http config
+Quick 'n Easy ftpd
+D-Link D-500G telnetd
+JBoss service httpd
+ircu ircd
+BlueCoat http proxy
+Balance Servers TCAdmin game hosting ftpd
+Ambit U10C020 cable modem telnetd
+MoxaHttp
+DB102
+JC-HTTPD
+3Com switch http config
+Siemens Gigaset SX682 WiMAX WAP http config
+Konica Minolta bizhub printer ftpd
+FreeSWITCH mod_sofia
+Merak Mail server pop3d
+remote-potato-v1 Microsoft-HTTPAPI
+Ascend DSLPipe ADSL modem telnetd
+Polycom SoundPoint 331
+NET+OS ftpd
+Xerox WorkCentre IPP
+DPC2203-120531
+Citadel smtpd
+Bomgar
+AVM FRITZ!Box Fon WLAN 7270 v2 54.05.22 SIP
+VNC Server Enterprise Edition
+Oracle GlassFish
+Dart WebServer Tool
+AVM FRITZ!Box Fon WLAN 7170 29.04.80 SIP
+AVM FRITZ!Box Fon WLAN 7270 v2 54.05.21 SIP
+Broadcom BCM96332 ADSL router telnetd
+Sun Java System httpd
+DTV HMC-Lite Server
+falcon
+eHTTP v2.0
+3proxy http proxy
+YTS
+cppop pop3d
+Sony Bravia TV
+Lancom 1721 VPN http config
+Pirelli Age UB router telnetd
+Sagemcom SX682 WiMAX
+ZXDSL 831AII
+- Web acceleration by http
+SiftLogic API Server v1.1
+Microsoft Windows daytime
+libssh
+x11vnc
+Sunbelt Software CounterSpy Agent antimalware SOAP over HTTP
+Check Point VPN-1/UTM NGX R70 firewall http admin
+
+RaidenMAILD smtpd
+Treck Embedded ftpd
+Linksys WRT54GS wireless-G router http config
+HTTPsrv
+INN nntpd
+Ubuntu
+SABnzbd newsreader http interface
+TiVo To Go httpd
+HP Photosmart D110 series printer http config
+iCanSystem rtspd
+HP-UX or AIX ftpd
+SurgeMail pop3d
+CommuniGatePro VoIP Gateway
+Allied Telesis x900-series switch telnetd
+OVH OvhCheckOut
+Sagem router telnetd
+Z-World Rabbit
+Dell 1130n printer soap
+EPProxy
+Logitech SqueezeCenter music server
+Mongoose httpd
+Funkwerk bintec R1200 router
+Cisco C220 DebugShell
+Sun Solaris telnetd
+mhttpd v1.0
+D-Link DCS-910 webcam http config
+Henry
+hp LaserJet 4250
+Actiontec Q1000 DSL router telnetd
+Freescale Semiconductor Embedded Linux Environment
+Cougar
+Motorola SBV5220-SIP-1.2.4-SCM-09-SHTW
+HP Photosmart 5510 series printer http config
+Synacast Media Server
+
+Lancom 1711 VPN http config
+MLDonkey multi-network P2P server
+AliceBox AH4021 telnet config
+Merak Mail Server imapd
+ZyXEL P-320W broadband router http config
+AVM FRITZ!Box Fon WLAN 7390 84.05.21 SIP
+Epson printer httpd
+Business LAN R800
+QS
+VMware ESX Server httpd
+Naga Simple Server
+ZyWALL USG 100 firewall ftpd
+Wireless Network Camera
+3Com switch webadmin
+Frox ftp proxy
+lf
+Nucleus ftpd
+VMware ESX 4.0 Server httpd
+JRun Web Server
+libwww-perl-daemon httpd
+Netgear FS726TP switch http config
+ab_http alpha2
+Linksys WRT54G WAP http config
+Kerio MailServer POP3 Server
+kangle
+Miktotik Dude network monitor
+Microsoft Windows 2000 telnetd
+GoldStar iPECS 50B PBX http config
+HTC P4000 PDA/Phone ftpd
+ADI Convergence Galaxy update ftpd
+HsHttpServer
+RedHatEnterpriseAS
+Titan ftpd
+Motorola SBV5222-SIP-2.0.6-SCM-01-SHTW
+OpenDNS Guide
+NetBox smtpd
+LANDesk RC
+Tilgin Vood HG13xxx_CSx000-01_09_05_09
+LANDesk Management Suite
+Netgear DGN2200v3 router http config
+Tandberg-515 VoIP server
+Dreambox 5.1.0 telnetd
+HP Photosmart B110 series printer http config
+Dreambox 4.7.0 telnetd
+gadogado2
+DPX2203-120912
+Huawei Technology. Co., Ltd.
+Grandstream HT286 VoIP router http config
+BBVS
+Small Home Server httpd
+Internet Communications Engine
+LPRng
+Telefonadapter - Telia Bredbandstelefoni
+TP-LINK WR1043ND WAP http config
+PVSS
+Linksys SPA942 VoIP phone http config
+squid
+Kerio MailServer
+Mini web server 1.0 ZTE corp 2005.
+Novell NetWare NCP
+Zoom ADSL modem telnetd
+Linksys WRT OpenWrt http config
+WebServerX
+Snom 300 VoIP phone http config
+IocpServer
+HP Deskjet 3050A series printer http config
+FRITZ!Box Fon WLAN 7570vDSL WAP ftpd
+Check Point Firewall-1 Client Authentication httpd
+Topfield TF7100HDPVRt DVR ftpd
+Aruba Networks SNMP service
+AudioCodes MP-202 VoIP adapter http config
+AVM FRITZ!Box WLAN 08.04.34
+Router Web Config System
+AIX telnetd
+Lancom 1711+ VPN http config
+IronPort AsyncOS http config
+CoreFTP sshd
+CommuniGate Pro pop3 password change daemon
+KM-MFP-http
+WS_FTP sshd
+Oracle Database
+JAMES smtpd
+Netopia 3347NWG wireless ADSL router telnetd
+Netgem
+ZyWALL USG 20 firewall ftpd
+Novell GroupWise imapd
+Apache Advanced Extranet Server httpd
+OpenWrt BusyBox httpd
+Rapid Logic
+Web-Based Enterprise Management CIM serverOpenPegasus WBEM httpd
+Everfocus webcam http config
+Cisco SPA112 VoIP adapter
+Western Digital WD TV Live media player http config
+Axigen smtpd
+Oracle-iPlanet-Web-Server
+Demandware eCommerce Server
+RaidenMAILD pop3d
+InterNiche Technologies WebServer 2.0
+Broadcom BCM96332 DSL router telnetd
+unknown
+Sagem ADSL router
+DirecTV JSON RPC
+Motorola SBV5222-SIP-2.0.6-SCM-05-SHTW
+AVM FRITZ!Box WLAN 7340
+D-Link 524, DIR-300, or WBR-1310 WAP telnetd
+Adaptec/IBM ServeRAID Management http config
+DirecTV satellite receiver http interface
+Cyrus POP3
+AnWeb
+Lexmark language monitor
+SEQUANS
+Zebedee encrypted tunnel
+ver2.4 rev0
+Embedthis-Appweb
+Funkwerk bintec R3000 router
+Foxgate S9816 switch telnetd
+HyNetOS
+avtech httpd
+IBM DB2 Database Server
+xServers
+Zarafa imap proxy
+Solaris management console server
+DarwinStreamingServer
+Funkwerk bintec R230a router
+FRITZ!Box Fon WLAN 7270v1 WAP ftpd
+Mini ASP Web Server
+Radware sshd
+hMailServer
+ZyXEL-RomPager
+Cisco IP Phone CP-7900G-series sshd
+Symantec pcAnywhere
+Winmail smtpd
+Node.js
+Winmail pop3d
+Tiny redirect server
+DSLG WEB SERVER
+Net Administration Divisions ftpd
+SentinelKeysServer
+UserGate ftpd
+iCanWebServer
+Tandberg-516 VoIP server
+Symantec rtvscan antivirus
+NetSupport PC remote control
+LASERJET 4050
+D-Link DIR-600 WAP UPnP
+Kerio MailServer Webmail
+Tiny WebServer
+DigiSprite httpd
+Pound http proxy
+Coship Electronics Embedded Web Server
+Asterisk
+Apple slpd
+hMailServer smtpd
+APC AOS ftpd
+XMail fingerd
+D-Link DFL-800 or DFL-860 firewall http config
+Telindus ftpd
+Guild ftpd
+AVM FRITZ!Box WLAN 7170 WAP http config
+Microsoft SQL Server
+PSC 4.0.0.3
+ZNC IRC bouncer http config
+SAP Web Application Server
+Netgear GS724T switch http config
+Panasonic webcam http config
+Netgear WNR3500 WAP http config
+CJServer
+Beck IPC@CHIP embedded httpd
+Lantronix XPort embedded ethernet http config
+APC telnetd
+Netgear WNR834Bv2 WAP http config
+QNAP TS-109-II NAS http config
+BlueIris-HTTP
+bukkit MusicService
+BaseHTTPServer
+bywifi
+Tobit David.fx smtpd
+WebtoB
+Prosody Jabber client
+Tobit David.fx imapd
+Cisco 7940 IP Phone
+Polycom VSX 8000 ftpd
+Sun Solaris daytime
+World of Warcraft world server
+D-Link DI-604 http config
+Linux 2.4.18 UPnP
+Tornado httpd
+Cubic Circle Cucipop pop3d
+HP LaserJet P2015 Series
+eWON
+BaseHTTP
+Prosody Jabber server
+AudioCodes Mediant 200 VoIP gateway http config
+Binc imapd
+Netgear 3500L WAP ftpd
+Sony PCS-G50 telnetd
+EWS-NIC5
+MS .NET Remoting
+HP Photosmart Plus B210 series printer http config
+Funkwerk bintec R230aw router
+MailSite pop3d
+XWeb 1.0
+hp LaserJet 1320 series
+Cisco IronPort C160 firewall smtpd
+Citadel imapd
+HP Color LaserJet CP2025dn
+ZyXEL ZXDSL 831II ADSL modem telnetd
+Canon Pixma IP4000R printer http config
+HTTP-RTMP Stream Server
+AIP250
+ArGoSoft Mail Server Pro
+HP LaserJet P3005
+Cadant C3 Cable Modem Termination Server telnetd
+Huawei Technologies Co., Ltd. 2004-2009. All rights reserved.
+eSoft
+AquaController 4.0
+gateway
+IRTS-NTOPIA System >>>>>>>>
+Adtran Netvanta 3200 router telnetd
+Netgear WGR614v8 WAP http config
+Citrix Application Firewall
+DVSS Herculese DVR http config
+HP/Compaq Integrated Lights-Out http config
+Casi-Rusco camera/Bestelco VoIP phone http config
+Milestone XProtect video surveillance http interface
+Draytek ADSL router ftpd
+SqueezeCenter CLI
+ejabberd http admin
+Sun Solaris Management Console
+HP LaserJet P3010 Series
+wanduck
+Toshiba Tec printer http config
+GR-HTTPD Server
+Citrix Access Gateway
+dvr1614n web-cam httpd
+HP LaserJet P4015
+BreezeACCESS wireless router telnetd
+Texas Imperial Software WFTPD
+Canon printer web interface
+Polycom ViewStation
+ZyXEL Modem
+Force10 switch sshd
+Huawei Quidway A8010 switch telnetd
+Linksys WRT600N WAP http config
+Panasonic AVC Server
+meida server
+Surgemail webmail
+FVG318
+3ware 3DM2 Serial RAID http config
+D-Link DI-808HV http config
+ZyXEL ZyWALL USG 200 firewall telnetd
+D-Link DVA-G3170i telnetd
+NetEngine Server 1.0
+VNC Server Personal Edition httpd
+WCY_WEBServer
+Lyris ListManagerWeb
+Polycom SoundPoint 550
+No Information
+Eudora EIMS X smtpd
+Telindus router telnetd
+monit httpd
+TwistedWeb httpd
+Gordano Messaging Suite Web Server v17.01.3793
+CrushFTP httpd
+Microsoft FTP Service
+D-Link DIR-300 WAP UPnP
+PunkBuster http config
+m0n0wall FreeBSD firewall web interface
+Bosch Divar Security Systems http config
+OracleAS Web Cache 10g
+Motion Camera httpd
+AIM HTTP
+Comtrend FTP firmware update utility
+Sun Java System Application Server httpd
+Novell NetWare/IP
+VanDyke VShell sshd
+Mercury/32 imapd
+Titanium
+SMC SMCWBR14S Barricade WAP soap
+multi-vendor SSL
+D-Link Printer Server ftpd
+NetApp Data ONTAP ndmp
+LG HDCP Server
+
+Ingate-Firewall/4.9.2
+USRobotics Wireless MAXg ADSL router telnetd
+HP LaserJet 4100 Series
+Avaya IP Office VoIP PBX httpd
+IRCnet ircd
+BitlBee IRCd
+CANON HTTP Server
+Melange Chat Server
+AVM FRITZ!Box Fon WLAN 7050 Annex A SIP
+Delta Networks Embedded HTTPD
+Lingo VoIP config telnetd
+Lancom 1821n wireless router http config
+Sun Solaris 8 ftpd
+RollingStream
+gSoap 2.7.6c / Dimark client 4.0.2 beta
+hp LaserJet 4200
+thttpd-alphanetworks
+Actiontec router ftpd
+USHA SSH
+XMail CTRL Server
+the server management network terminal!
+?
+Tinyweb httpd
+Wusage httpd
+FRITZ!Box Fon WLAN 7360 WAP ftpd
+VirtualBox VM Remote Desktop Service
+Canon SNMP service
+Ipswitch IMail pop3 password change daemon
+FileMaker Web Publishing httpd
+III 100
+MikroTik router SNMP service
+HP Photosmart 7510 series printer http config
+Zhone Technologies
+Lancom DSL/DSL/I-1611 router http config
+Linksys E1500 WAP http config
+Rex
+Cisco VPN Concentrator SSHd
+
+VB
+WISPR
+tpop3d
+NC_Net nagios server
+VMware View Manager httpd
+VPON Server
+XBMC Web Media Manager
+Zarafa pop3 proxy
+Tracd
+iRMC S2 Webserver
+Roku media player telnetd
+VMware Server 2 http config
+Microsoft ISA Server http proxy
+NetBSD lukemftpd
+nuttcp network throughput tester
+ziproxy http proxy
+Oracle Enterprise XML DB ftpd
+Linksys WRT110 wireless-G router http config
+uTorrent http admin
+SmarterTools
+Huawei Home Gateway 550
+Drohne Internal HTTP Server by Searchmetrics GmbH (c) 2012
+AVT1100
+use home media gateway.
+Xitami httpd
+http server
+NetDNA-cache
+Efficient router telnetd
+ABYSS httpd
+ESET NOD32 anti-virus update httpd
+ratbox ircd
+TANDBERG/4103 (X7.1)
+VoIP/POTS gateway http config
+Play
+Motorola Canopy WAP http config
+DataflexViNE-Webserver
+ViewSonic PJD6521 projector http config
+iBall-Baton
+Synolgy NAS ftpd
+Datacom DM991CR router telnetd
+Funkwerk bintec R232b router
+IPC
+Funkwerk bintec RS230a router
+Netgear DG834N router http config
+Oracle-Application-Server-11g
+go1984
+Billion/TeleWell ADSL modem http config
+LASERJET 4000
+Cerberus FTP Server sshd
+Epson ippd
+Tandberg Border Controller VoIP proxy
+Linux fingerd
+Connection failed; ident required
+KS_HTTP
+MF50
+OEM FTPD 1.01
+Phoenix PowerAgent eXM with Equalization
+DrayTek Vigor 3300 router http config
+AMX NetLinx A/V control system ftpd
+SAP J2EE Engine httpd
+Tilgin Vood HG13xxx_CSx700-01_07_06_06
+httpserver
+Extremeware XOS httpd
+JDVR
+Golden ftpd
+Catwalk
+NET+ARM ftpd
+IQ3
+MultView WEB Server V1.1
+HP Photosmart 6510 series printer http config
+PasteWSGIServer
+Panasonic DVR slinger http config
+HomeSeer Home Control Web Interface
+D-Link DCS-2120 webcam http config
+Dreambox 4.6.0 telnetd
+FLC 0.52
+ADAM-6000
+ZK Web Server
+FreeFTPd
+gunicorn
+LogMeIn httpd
+Varnish
+602LAN Suite pop3
+PS3 Media Server UPnP
+Axis 214 PTZ Network Camera ftpd
+Linksys/PAP2T-3.1.15(LS)
+SEPM
+HP Deskjet 3050 series printer http config
+SlimFTPd
+2.56
+PBT PowerAgent eXM-EQ LMM
+Linux (ZEM510) for MIPS
+Logitech Media Server (7.7.2 - 33893)
+HP Officejet 6500 E710a-f printer http config
+3Com OfficeConnect router telnetd
+Aethra StarVoice SV1042 telnetd
+Alcatel OmniSwitch 6400 or 8600 switch telnetd
+Linktivity ConnectionPoint
+Mercury/32 pop3d
+Solaris uucpd
+LANCOM 821
+IBM OS/400 telnetd
+VOD server
+AtermWARPSTAR
+TOS httpd
+D-Link DSL-502T http config
+Topsec
+Novell GroupWise
+TBS
+Brother printer smtpd
+Symantic Enterprise Firewall nntpd
+D-Link MiniAVServer
+CompTek AquaGateKeeper
+Cisco 2514 router telnetd
+Unrecognized SMTP service
+go1984 httpd
+NHN
+Netgear WNR3500v2 WAP http config
+MailEnable Enterprise smptd
+Vivotek IP7131 Network Camera http config
+D-Link 500G DSL router http config
+TRMB
+QZHTTP-2.35.2
+NetWare NWFTPD
+apache
+Netgear DG834 FR WAP http config
+TP-LINK WR641G/642G WAP http config
+Connection ok
+SmarterTools SmarterStats httpd
+Cisco 4400 wireless LAN controller telnetd
+ZXR10 Fast and Intelligent 3906 Switch of ZTE Corporation
+Microsoft NetMeeting Remote Desktop Service
+NT
+D-Link router http config
+IceWarp
+ZyXEL ZyAIR G-4100v2 WAP http config
+
+HP Color LaserJet CP3525
+IRIX telnetd
+SNF
+OpenSIPS SIP Server
+pSOSystem ftpd
+XGATE-Webs
+Medusa httpd
+Cisco SRW2016 or SRW2024 router telnetd
+Arris tm602g cable modem telnetd
+4D WebStar D
+Efficient Networks Speedstream router telnetd
+jabberd instant messaging server
+gen5th
+Kyocera FS-3900DN printer http config
+FreeBSD fingerd
+omniORB omniNames
+Google Mini search appliance httpd
+Viking router telnetd
+DBMail imapd
+Funkwerk bintec R232bw router
+GlassFish Server Open Source Edition 3.0.1
+Axigen webmail httpd
+HP Photosmart Prem C310 series printer http config
+Dreambox 500 media device telnetd
+MLDonkey multi-network P2P server control port
+build-in http server
+YACOM/YACOM WLAN IAD-0.20.045
+Symantec PC-Anywhere
+ModusMail pop3d
+Linksys E3200 WAP http config
+Linksys WRV54G router http config
+Bittorrent P2P client
+JC-SHTTPD
+FPBX-2.8.1(1.8.11.0)
+JD-GUI Java decompiler
+Video server
+ValuePoint Controller 3500
+Linksys WRT300N wireless-G router http config
+Hawking/TRENDnet Print Server telnetd
+Linksys/SPA2102-3.3.6
+TP-LINK WR940N WAP http config
+mhttpd v1.1
+Hamster Playground/Kerio nntpd
+Linksys RV082 VPN router http config
+WAR-FTPD
+Sony PCS-1 telnetd
+TalkSwitch HTTP Server
+D-Link Access Point telnetd
+sbcache
+CCProxy telnet configuration
+Supermicro IPMI/Paradox Alarm http config
+Pragma FortessSSH
+XProxy/0.2.4 Python
+HP LaserJet printer telnetd
+LG LW5700 TV HDCP server
+TP-LINK MR3420 WAP http config
+HP Color LaserJet 2600n http config
+Nagios Statd Server
+Linksys WRT54G telnetd
+Citadel pop3d
+T64E/T128 Carrier-Class High-end Router of ZTE Corporation
+Lantronix MSS100 serial interface telnetd
+TP-LINK WR1043N WAP http config
+Chain Cast support service
+eSafe mail gateway
+D-Link DSL router http config
+Solaris lpd
+Linux-identd
+D-Link web camera http config
+DeskNow smtpd
+Yawcam webcam viewer httpd
+AnalogX FTP proxy
+CenteHTTPd
+Symantec Endpoint Protection httpd
+RCTTools (Web configuration Tools) v2
+D-Link DSL-504G ADSL router http config
+Dovecot Pigeonhole sieve
+hp LaserJet 4350
+TP-LINK WA5210G WAP http config
+Tor directory
+Control4 Web Server
+Linksys/SPA2102-5.2.5
+Lexmark printer webadmin
+Siemens Gigaset A580 or S450 VoIP phone http config
+LocalAccess
+MAILsweeper SMTP proxy
+XBMC JSON-RPC
+NETWORK
+UltiDev Cassini httpd
+OpenWRT
+Cisco C300 DebugShell
+Enterasys C2H124-48 switch telnetd
+LimeWire Gnutella P2P client
+ZyWALL USG 200 firewall ftpd
+GuildFTPd
+Axis 207W Webcam rtspd
+Actiontec DSL router
+Linux (ZEM600) for ARM
+awweb
+DSL-X402
+X-Lite SIP phone
+ViaXML
+Code-Crafters Ability Mail Server smtpd
+Spectrum XMPP file transfer
+E-2 (9.3.3 patch-0.1
+HttpComponents
+Symantec Brightmail smtp proxy
+AMBIT Cable Modem
+GS-Webs
+xinetd chargen
+tdlived1.11.0414.0
+streamts (ps)
+Sonic FTP Server
+Vivotek Video Server
+HP Deskjet 3070 series printer http config
+v6rev
+Netgear DGN3500 router http config
+DPX2203-120531
+BlueIris
+Procurve Secure Router telnetd
+XWall smtpd
+Adobe Flash Media Server core
+WatchGuard SOHO 6 TC http config
+HP Color LaserJet 2600n
+IBM_HTTP_Server
+CCcam card sharing system http config
+ISOS
+HP Color LaserJet 4700
+NCDN
+netTALK Duo http config
+Lancom 1621 DSL/ISDN router telnetd
+HP Color LaserJet 3600
+Microsoft Windows 2000 microsoft-ds
+YACOM/YACOM WLAN IAD-0.10.046
+Xitami httpd admin port
+HP JetDirect Card in a LaserJet printer
+D-Link DCS-2121 webcam http config
+BSkyB DG934G http config
+Netcomm V300 VoIP adapter telnetd
+Efficient 5851 DSL router telnetd
+Network Camera with Pan
+AIX wsmserver
+Broadcom BCM96362 ADSL router telnetd
+TP-LINK R406 WAP http config
+Linksys Wireless-G DSL router http config
+PostX IP Reporting alarm system
+Symantec Raptor firewall secure gateway telnetd
+InterTel IPRC VoIP management card telnetd
+Redis key-value store
+D-Link DCS-5220 webcam http config
+IBM Service Tool Server AS-STS
+scamd
+WWW Server
+Linux (ZEM500) for MIPS
+Satel ETHM-1 alarm control unit
+SLWebMail Supervisor http config
+ALTAI-Webs
+Teradici PCoIP remote management http config
+hp LaserJet 2420
+Zarafa CalDav Gateway
+WebBox-20
+MWS
+Astaro firewall pop3 proxy
+DI-LB604 HTTP Server
+QUIDWAY A8010 Access Server
+Netgear DG834GL router http config
+LimeWire
+Dreambox 5.0.0 telnetd
+Keil-EWEB
+Dell PowerConnect M6220-series switch telnetd
+Nortel Alteon switch telnetd
+Novell NetWare GroupWise Internet Agent smtpd
+Tandberg VCS VoIP server
+Rockliffe MailSite
+Cassini
+stupid-ftpd
+Linksys/SPA2102-5.2.10
+AVM FRITZ!Box Fon WLAN 7270 v3 74.04.89 SIP
+AVM FRITZ!Box Fon WLAN 7270 v3 74.05.05 SIP
+Mono.WebServer2
+IQinVision Embedded 1.0
+Nortel/D-Link router instant setup
+Ipswitch WhatsUp Professional httpd
+Linksys WAG200G WAP http config
+D-Link printer/webcam http config
+Deerfield VisNetic WebSite Professional
+
+HP LaserJet M1536dnf MFP
+Linksys E900 WAP http config
+Lantronix UDS10 ethernet-serial telnetd
+AR7 embedded httpd
+Huawei APT Cli
+NEC Electra Elite IPK II WebPro
+UNO
+Linksys WRT150N wireless-G router http config
+Syabas Popcorn Hour media player BitTorrent interface
+ZXR10 Fast and Intelligent 3928 Switch of ZTE Corporation
+Force10 S50N switch telnetd
+IX Series IX2010 (magellan-sec) Software
+IA Mailserver smtpd
+QNAP TS-419P+ NAS http config
+Lexmark Pro800-Pro900 series printer ftpd
+TP-LINK TL-R402 router http config
+Intel NetportExpress print server ftpd
+Netgear DG834 http config
+WinFtpd
+Minitar MVA11A VoIP gateway http config
+ise GmbH HTTP-Server v2.0
+ZXDSL 531BII
+Promise RAID message agent
+Debian
+Cisco ATA186 VoIP adapter http config
+Netgear WG102 WAP telnetd
+Code-Crafters Ability Mail Server pop3d
+E-1 (9.3.3 patch-0.1
+D-Link Web Server 0.01
+Wireless Network Camera with Pan
+Siemens C2-010-I ADSL router telnetd
+HP LaserJet P4014
+NetEVI
+HTTPD-HR Server powered by Apache
+HP LaserJet P1606dn printer http config
+AVM FRITZ!Box Fon WLAN 7390 84.05.20 SIP
+APC PowerChute Agent
+HYDRA
+Lexmark C524 Laser Printer UPnP
+HP Photosmart Prem C410 series printer http config
+H264DVR 1.0
+JanaServer ftp proxy
+Tntnet
+Motorola SBV5220-SIP-1.2.6-SCM-00-SHTW
+calibre
+Cisco catalyst switch telnetd
+Tandberg MXP VoIP server
+ZXAN product C300 of ZTE Corporation
+AVM FRITZ!Box Fon WLAN Annex A SIP
+Actiontec GT704-WGB WAP telnetd
+MLC 226 IP
+hp color LaserJet 5550
+FusionReactor web server monitor
+hp LaserJet 2300 series
+NOYB
+FreeProxy http proxy
+Hiawatha v7.6
+Dell PowerConnect switch telnetd
+HP OpenView Omniback
+Wing FTP Server
+APC AP9630 network management telnetd
+PBT PowerAgent eXM2 LMM
+AVM FRITZ!Box Fon WLAN 7140 SIP
+grabtofile
+Eudora Internet Mail Server X pop3d
+D-Link print server http config
+Netgear FVS338 router telnetd
+Oracle Application Server
+Helix Mobile Server
+AverMedia WebCamX httpd
+FortiSSH
+Nortel CallPilot imapd
+ffingerd
+gidentd
+FLPS
+Cisco AWARE 2.0
+MediaTomb UPnP
+Quake 3 game server
+ZyXEL ZyWALL USG 20 firewall ftpd
+Ovislink WLA-9000AP WAP telnetd
+HP ProCurve 1800-24G switch http config
+ZoneAlarm Z100G firewall http config
+Post.Office
+Scalix imapd
+Hydra
+Zoiper VoIP software
+Aterm
+mcas
+IBM Lotus Sametime httpd
+TP-LINK MR3220 WAP http config
+tinc vpn daemon
+java
+VMware Server http config
+Netgear DG834GB router http config
+NetPort Software 1.1
+WANFlex HTTP Daemon v1.1
+ZyWALL USG 300 firewall ftpd
+ZyCfg
+Aten httpd
+Slingbox streaming video
+FPBX-2.8.1(1.8.12.0)
+LANCOM 1721
+Apache Traffic Server
+Linksys/PAP2T-5.1.6(LS)
+the 1531 N-Band DSL Router
+PPEngine
+POSIX
+VOIP
+Alcatel-Lucent OmniPCX PBX httpd
+DirectAdmin httpd
+Funkwerk bintec RS230aw router
+Lancom 1621 DSL/ISDN router http config
+2.2.24B74
+ngx_openresty
+DSL Router/DSL Router WLAN IAD-00.95.005
+NewCS satellite card sharing system http config
+ngircd
+Novell NetWare AFP
+Octoshape P2P streaming web service
+TAC Xenta 911 programmable logic controller httpd
+JAMES pop3d
+Phoenix PowerAgent eXM2
+CWS
+DBMail pop3d
+CZ-CZMOBILE-02_211_103_1_153 --
+RealVNC
+Linksys SRW2024 switch telnetd
+HP Integrated Lights-Out Virtual Media
+Spy-Net or CyberGate backdoor
+HP Officejet 6700 printer http config
+HP LaserJet 5200
+MailFoundry antispam smtp proxy
+DSL-X202
+HP LaserJet Professional P1606dn
+GData AntiVirenKit MailGateway smtp proxy
+Consul InSight Manager
+Personal FTPd
+ZyXEL ZyWALL USG 100 firewall ftpd
+TP-LINK WR741ND WAP http config
+D-Link DCS-3220 webcam http config
+Linksys WAP54G WAP http config
+Apple iTunes DAAP
+ZyWALL USG 50 firewall ftpd
+Nortel Networks Instant Internet broadband router telnetd
+DSL-500G
+Tornado
+HP Officejet 7500 E910 printer http config
+GTA GB-Ware firewall identd
+w3httpd
+StrongMail smtpd
+Radware-web-server
+Taylor uucpd
+Z-World Rabbit microcontroller httpd
+Kerio Connect webmail httpd
+COMPanion Web Server
+ghs
+FirstClass imapd
+RHTTPD
+SrSshServer
+Sun Integrated Lights-Out httpd
+DameWare Mini Remote Control
+No-auth shell
+VCS-VideoJet-Webserver
+GlobespanVirata Viking II telnetd
+Traffic inspector HTTP
+Solid pop3d
+InterNetNews (INN)
+Huawei SmartAX MT880
+memcached
+Gateway Controller 3560
+CCProxy smtp proxy
+SimpleHelp
+UserGate smtp proxy
+Aastra A150 VoIP phone ftpd
+Funkwerk bintec RS120 router
+FirstClass SMTP server
+Polycom SoundPoint 335
+hlhttpd
+Alteon Networks ACEDirector switch telnetd
+Digium Switchvox PBX
+i-Catcher Console
+UPS_Server
+D-Link DIR-815 WAP http config
+Communigate Pro ftpd
+3Com 5500G-EI switch telnetd
+ATR httpd
+Mediabolic http config
+XMS (724Solutions HTA XFW_004_M00_B237 20101125.131631)
+XBMC http interface
+use MERCURY Router Module !!!
+SCO imapd
+CloudFront
+Mono-HTTPAPI
+Moxa NPort 5110 serial-to-IP converter telnetd
+AXIS 205 network camera web interface
+Toshiba e-STUDIO printer http config
+Callisto 821+R3
+Adtran NetVanta 6355 VoIP gateway telnetd
+BarracudaHTTP 2.0
+Pirelli DRG A125G WAP http config
+HP Color LaserJet 3800
+Atera Networks Citadel firewall http config
+Precidia serial2ethernet gateway telnetd
+Ajenti admin httpd
+Lancom 1811 wireless router http config
+HP Web Jetadmin print server http config
+CLI
+CMailServer pop3d
+LANCOM 1821
+Axis M1011 Network Camera ftpd
+Huawei VPP EWS
+OpinionSquare application
+ZKSoftware ZEM510 access control device
+honeyd cmdexe.pl
+Kerio WinRoute http proxy
+Envysion Embedded RTSP Server (2.0.0 120516-1158)
+TP-LINK WR743ND WAP http config
+D-Link 502G DSL router http config
+TP-LINK Web Smart Switch http config
+MarkLogic
+Teapop pop3d
+IBM WebSphere MQ
+Amino AmiNET set-top box rtspd
+ALT-N SecurityGateway smtpd
+SMC/SMC WLAN IAD-0.10.046
+iiNet/IINET WLAN IAD-1.00.000
+X.Org
+Cisco ATA 186 SIP http config
+Quarkmail smtpd
+yawcam
+Netgear WGR614v5 WAP http config
+
+GlobalSCAPE Secure FTPd
+jdbhttpd
+CVSNT cvs pserver
+FujiXerox ApeosPort-IV C4470 http config
+ArGoSoft ftpd
+InterSystems Cache database
+HP-UX telnetd
+embedded http dameon
+Command Shell!
+Tobit David.fx pop3d
+HP LaserJet P2035n printer http config
+UTStarcom Inc.'s UT4110A
+Omniture DC
+Siemens 5940-001 T1E1 router
+Dreambox dm800 telnetd
+AIX rexecd
+AChat chat system
+SuperMicro IPMI UPnP
+Unreal Tournament http admin
+InnoMedia SIP MTA6328-2Re v3.0.77
+picoIP HTTPd 10
+Kannel SMS proxy httpd
+D-Link DIR-615 WAP UPnP
+ZXUAS Broadband Remote Access Server of ZTE Corporation
+FirstClass messaging system telnetd
+Plex Media Center httpd
+FirstClass pop3d
+TreeNeWS httpd
+SMC Broadband router 7004ABR http config
+iSpy
+Axigen webadmin httpd
+PacketShaper ftpd
+Apache Stronghold httpd
+TP-LINK R402M WAP http config
+PENNY web server. Signalsync Co.
+
+Envysion Embedded RTSP Server (2.0.0 121001-1023)
+TopsecOS
+D-Link DI-824VUP http config
+Phoenix PowerAgent eXM2 with Equalization
+Gunicorn
+Apache XML-RPC
+Cisco IP Phone http config
+hp LaserJet 2430
+Portable SDK for UPnP
+UserGate Firewall and Proxy Server
+Netgear FVS336GV2 router telnetd
+NetApp filer httpd
+ZKSoftware ZEM500 fingerprint reader telnetd
+ALFTP
+AudioWorks sound server
+Hidden
+Webserver
+QNAP TS-219, TS-239, or TS-509 NAS http config
+Linksys WRT54GSV4 wireless-G router http config
+dptech server
+HP LaserJet M2727nf MFP
+Sagem F@st 2404 ADSL router telnetd
+uIP
+SCS NetScreen sshd
+Connection failed; username required
+Netgear FVS336G router telnetd
+NetOp Remote Control
+iCanSystem
+
+SSLv2
+HP LaserJet P2035n
+BladeCenter/IBM RSA2 http config
+Eudora Internet Mail Server X imapd
+TELES AG
+Polycom SoundPoint 501
+IRCnet-based ircd
+MicroWeb
+HP LaserJet P4515
+Veritas Netbackup Network Utility
+Scalix smtp relay
+5.0_Pub
+Heimdal Kerberized ftpd
+Web r
+InterNiche Technologies httpd
+Vivotek 3102 Camera ftpd
+F5 BIG-IP load balancer telnetd
+Sophos Email Appliance
+jftpgw ftp proxy
+HP OpenView Omniback/Data Protector
+TWS
+Thomson WebServer
+Axis 2100 Network Camera ftpd
+Lexmark T640 printer ftpd
+ZXAN product C200 of ZTE Corporation
+Grandstream GXP2000 VoIP phone telnetd
+httpd_gargoyle
+LevelOne WBR-6002 http config
+ArGoSoft Mail Server Pro pop3d
+Intellex-Http Server 1.0
+sinuid
+Panasonic WV-NS202A webcam http config
+Coretek-Webs
+A10WS
+InterTel IPRC VoIP management card
+hp color LaserJet 4600
+Diablo 2 game server
+VLC rtspd
+UserGate pop3 proxy
+H3C HTTPD
+Vyatta
+Cisco LDAP server
+Gateway Controller 3550
+AirLive WT-2000R WAP http config
+HP Color LaserJet CP2025n
+LANCOM 1781A 8.50.0161 / 09.08.2011
+3Com 3CDaemon ftpd
+HP Integrated Lights-Out 2 remote configuration telnetd
+Sanyo VCC-HD2300 webcam rtspd
+Blackjumbodog FTPd
+IPCamera-Webs
+ZXDSL 831AII
+Roxen
+DECORUM
+Atheme
+Gateway Controller 3500
+Grandstream GXP2000 http config
+Dell OpenManage switch http config
+GoAhead
+CrushFTPd
+TED 5000 power use monitor
+BW HTTP Server
+Ricoh Aficio 2022 ftpd
+Panasonic WJ-HD316 Digital Disk Recorder
+ZXAN product F420 of ZTE Corporation
+Micro-Web
+Lantronix Universal Device Server http config
+Ipswitch WS_FTP http config
+Cisco VoIP Gateway/ IOS 12.x/ SIP enabled
+Areca RAID-Controller http config
+TAC Xenta 511 programmable logic controller httpd
+Mojolicious (Perl)
+Lexmark T640 printer telnetd
+Wyse Device Manager
+Henry httpd
+PBT PowerAgent eXM2-EQ LMM
+Tru64 UNIX gated
+Orion Java Application Server httpd
+National Instruments LabVIEW ftpd
+Vivotek 3102 Camera telnetd
+Ingate-Firewall/4.8.1
+Boinc GUI RPC port
+AVM FRITZ!Box Fon WLAN 7170 29.04.76 SIP
+ArGoSoft Mail Server pop3d
+Syabas Popcorn Hour media player XML command server httpd
+nws 1.2.15
+Network Box smtpd
+Siemens Gigaset PBX/TARGA DIP VoIP phone http config
+RaidenFTPd
+php
+mod_ssl
+

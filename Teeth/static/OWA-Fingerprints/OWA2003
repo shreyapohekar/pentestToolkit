@@ -1,0 +1,263 @@
+<!-- {57A118C6-2DA9-419d-BE9A-F92B0F9A418B} -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Copyright (c) 2000-2003 Microsoft Corporation.  All rights reserved.-->
+<HTML >
+	<HEAD>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=iso-8859-1">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Expires" CONTENT="0">
+		<TITLE>KBR Outlook Web Access</TITLE>
+		<STYLE>
+			BODY {font-size:70%;}
+			TABLE {font-size:100%}
+
+			SELECT, INPUT, TEXTAREA, BUTTON, LABEL, BODY
+			{
+				font-family:Tahoma,Arial,Helvetica,Sans-serif;
+			}
+			a:link		{ color: #CC0001; text-decoration: none }
+			a:visited	{ color: #CC0001; text-decoration: none }
+			a:hover		{ text-decoration: underline }
+			.sideBar
+			{
+				background-image: url(/exchweb/img/logon_IE_bot.gif);
+				background-repeat: repeat-y;
+				vertical-align:left;
+				height:100%;
+			}
+			.logoTD 
+			{
+				BORDER-TOP-WIDTH: 1px;
+				BORDER-LEFT-WIDTH: 1px;
+				PADDING-BOTTOM: 5px;
+				BORDER-BOTTOM: #ecbe3e 1px solid;
+				BORDER-RIGHT-WIDTH: 1px;
+			}
+			.mainTable
+			{
+			 	BORDER-RIGHT: #243760 1px solid;
+			 	BORDER-TOP: #243760 1px solid;
+			 	BORDER-LEFT: #243760 1px solid;
+			 	BORDER-BOTTOM: #243760 1px solid;
+			 	BORDER-COLLAPSE: collapse; 
+			}
+			.standardTable
+			{
+				BORDER-COLLAPSE: collapse;
+			}
+		</STYLE> 
+
+		<NOSCRIPT>
+			<TABLE id="borderTable" dir="LTR" class="standardTable" cellSpacing=0 cellPadding=0 height="100%" width="100%" bgColor="#CC0001" border=0> <!--  -->
+			<TR>
+				<TD width="25%">&nbsp;</TD>
+				<TD width="50%">&nbsp;</TD>
+				<TD width="25%">&nbsp;</TD>
+			</TR>
+			<TR>
+				<TD width="25%">&nbsp;</TD>
+				<TD width="50%">
+					<TABLE style="border:2px solid black;" cellpadding=0 cellspacing=0 valign="middle" align="center" BGCOLOR="#FFFFE1" border=0>
+						<TR><TD rowspan=3 width=20>&nbsp;&nbsp;</TD><TD>&nbsp;</TD><TD rowspan=3 width=20>&nbsp;&nbsp;</TD></TR>
+						<TR>
+							<TD>
+								<font color='red' size=3>
+								<P>Your Web browser is configured not to run script or doesn't support script in Web pages.  Check your browser settings, or use a browser that can run script. </P>
+								</font>
+							</TD>
+						</TR>
+						<TR><TD>&nbsp;</TD></TR>
+					</TABLE>
+				</TD>
+				<TD width="25%">&nbsp;</TD>
+			</TR>
+			<TR>
+				<TD width="25%">&nbsp;</TD>
+				<TD width="50%">&nbsp;</TD>
+				<TD width="25%">&nbsp;</TD>
+			</TR>
+			</TABLE>
+		</NOSCRIPT>
+
+	
+	</HEAD>
+
+	<BODY scroll="AUTO" bgColor="#FFFFFF" text="#000000" onload="window.document.logonForm.username.focus()">
+		<FORM action="/exchweb/bin/auth/owaauth.dll" method="POST" name="logonForm">
+	
+	<!-- Build Outer Table -->
+	
+	<Table Width="820" Border="0" Cellspacing="" Cellpadding="0">
+	<TR>
+		<TD align="right">
+			<!-- Main Content Starts Here -->
+			<Table Width="100%" Border="0" Cellspacing="0" Cellpadding="0">
+				<TR>
+					<TD Colspan="3" align="Left">
+						<img src="/Exchweb/img/bannerlogo16.gif" width="540" height="72" alt="www.m.com"></TD>
+				</TR>
+				<TR>
+					<TD Width="100" bgcolor="#CC0000" valign="Top">
+						&nbsp;
+					</TD>
+					<TD width="20" Valign="Top">
+						<img src="/Exchweb/img/swoosh.gif" alt="www.m.com">
+					</TD>
+					<TD Width="540">
+						&nbsp;
+					</TD>
+				</TR>
+				<TR>
+					<TD width="100" bgcolor="#CC0000">
+						&nbsp;
+					</TD>
+					<TD width="20">
+						&nbsp;
+					</TD>
+					<TD width="480" height="400" valign="top">
+	
+	
+	
+	
+	<!-- End Build OUter Table -->
+	<INPUT type="hidden" name="destination" value="https://owa.kbaar.com/exchange">
+	<INPUT type="hidden" name="flags" value="0">
+	<TABLE id="borderTable" class="standardTable" cellSpacing=0 cellPadding=0 height="100%" width="100%" bgColor="#FFFFFF" border=0> <!-- CC0001 -->
+		<TR height=20>
+			<TD width="33%">&nbsp;</TD>
+			<TD width="33%">&nbsp;</TD>
+			<TD width="34%">&nbsp;</TD>
+		</TR>
+		<TR>
+			<TD width="33%">&nbsp;</TD>
+			<TD width="33%" valign="top">
+				<TABLE id="mainTable" class="mainTable" cellSpacing=0 cellPadding=0 width=400 bgColor="#FFFFFF" border=0>
+				
+				
+						<TR>
+						<TD><!-- <img title="" alt="" src="/exchweb/img/spacer.gif" width="10"> --></TD>
+						<TD height="100%" valign=top>
+							&nbsp;
+							
+						</TD>
+						<TD><img title="" alt="" src="/exchweb/img/spacer.gif" width="5"></TD>
+						<TD width="100%" valign=top>
+							<TABLE id="logoTable" dir="LTR" cellSpacing=0 cellPadding=0 width="100%" border="0" bgColor="#FFFFFF">
+								<TR>
+									<TD vAlign=top align="right" width="100%" height=20 style="padding-top: 15">
+										&nbsp;
+									</TD>
+								</TR>
+									<TR>
+					<TD><B><Font Face="Tahoma" Size="4" Color="Black"> </Font></B><BR><BR></TD>
+				</TR>
+								<TR>
+									<TD class="logoTD" width="100%">
+										
+						       					<IMG title="Microsoft Office Outlook Web Access provided by Microsoft Exchange Server 2003" alt="Microsoft Office Outlook Web Access provided by Microsoft Exchange Server 2003" height=62 src="/exchweb/img/logon_logo.gif" width=331 border=0 hspace=0>
+										
+									</TD>
+								</TR>
+								<TR>
+									<TD width="100%">
+										<TABLE id="usertxtTable" width="100%" cellspacing=0 cellpadding=0 border=0 bgColor="#FFFFFF">
+											
+													<TR><TD noWrap align="left" valign="top" height="8">&nbsp;</TD><TD width=10><img title="" alt="" src="/exchweb/img/spacer.gif" width=10></TD></TR>
+														
+													<TR><TD noWrap align="left" valign="top" height="8">&nbsp;</TD><TD width=10 rowspan=2>&nbsp;</TD></TR>
+												
+												<TR>
+													<TD VALIGN=top>
+														<TABLE id="contentTable" width="100%" height="100%" cellpadding=0 cellspacing=0 border="0" bgColor="#FFFFFF">
+															<TR>
+																<TD NOWRAP width="1%"><P><LABEL for="username">User name:</LABEL></P></TD>
+																<TD rowspan=7>&nbsp;&nbsp;</TD>
+																<TD width="98%"><INPUT type="text" id="username" name="username" style="width:100%" size="25" maxlength="256"></TD>
+																<TD rowspan=4>&nbsp;&nbsp;</TD>	
+																<TD width="1%">&nbsp;</TD>
+															</TR>
+															<TR>
+																<TD height="5"></TD>
+																<TD valign="top" height="5"><img title="" alt="" src="/exchweb/img/spacer.gif" width=25 height=5></TD>
+																<TD height=5></TD>
+															</TR>
+															<TR>
+																<TD NOWRAP width="1%"><P><LABEL for="password">Password:</LABEL></P></TD>
+																<TD width="98%"><INPUT type="password" autocomplete="off" style="width:100%" id="password" name="password" size="25" maxlength="256"></TD>
+																<TD width="1%"><INPUT type="submit" value="Log On" id="SubmitCreds" name="SubmitCreds"></TD>
+															</TR>
+															<TR>
+																<TD height="12"></TD>
+																<TD valign="top" height="12"><img title="" alt="" src="/exchweb/img/spacer.gif" width=25 height=12></TD>
+																<TD height=12></TD>
+															</TR>
+															<TR><TD>&nbsp;</TD><TD colspan=4><TABLE cellspacing=0 cellpadding=0 border=0><TR><TD colspan=2 width="100%" style="padding-bottom:3px;"><B>Security</B>&nbsp;</TD></TR><TR><TD colspan="2"><TABLE cellspacing=0 cellpadding=0><TR><TD><INPUT id="rdoPublic" checked type="radio" name="trusted" value="0" onclick="flags.value &= 11"></TD><TD NOWRAP><LABEL for="rdoPublic">Public or shared computer</LABEL></TD></TR><TR><TD height=6><img title="" alt="" src="/exchweb/img/spacer.gif" height=6></TD><TD height=6></TD></TR><TR id="trPublic"><TD>&nbsp;</TD><TD>Select this option if you use Outlook Web Access on a public computer.  Your Exchange server limits the period of inactivity to 15 minutes before logging you off.</TD></TR></TABLE></TD></TR><TR><TD height=6><img title="" alt="" src="/exchweb/img/spacer.gif" height=6></TD><TD height=6></TD></TR><TR><TD colspan="2"><TABLE cellspacing=0 cellpadding=0><TR><TD><INPUT id="rdoTrusted" name="trusted" type="radio" value="4" onclick="flags.value |= 4"></TD><TD NOWRAP><LABEL for="rdoTrusted">Private computer</LABEL></TD></TR><TR><TD height=6><img title="" alt="" src="/exchweb/img/spacer.gif" height=6></TD><TD height=6></TD></TR><TR id="trTrusted"><TD>&nbsp;</TD><TD>Select this option if you are the only person who uses this computer.</TD></TR><TR id="trWrn"><TD>&nbsp;</TD><TD><FONT color="red"> </FONT></TD></TR></TABLE></TD></TR></TABLE></TD></TR>
+														</TABLE>
+													</TD>
+												</TR>
+											</TABLE>
+										</TD>
+									</TR>
+									<TR><TD colspan=2 width="100%">&nbsp;</TD></TR>
+								</TABLE>
+							</TD>
+						</TR>
+				</TABLE>
+				
+				
+				
+				
+					<DIV dir="LTR" >
+					<FONT color="#FFFFFF">
+						<BR>
+						To protect your account from unauthorized access, Outlook Web Access automatically closes its connection to your mailbox after a period of inactivity. If your session ends, refresh your browser, and then log on again.
+					</FONT>
+				</DIV>
+			</TD>
+			<TD width="34%">&nbsp;</TD>
+		</TR>
+		<TR>
+			<TD width="33%">&nbsp;</TD>
+			<TD width="33%">&nbsp;</TD>
+			<TD width="34%">&nbsp;</TD>
+		</TR>
+</TABLE>
+
+<!-- Begin Footer -->
+				
+				</TD>
+				</TR>
+				<TR>
+					<TD Width="100" bgcolor="#CC0000">
+						&nbsp;
+					</TD>
+					<TD width="20">
+						&nbsp;
+					</TD>
+					<TD width="480">
+						<p><Font Face="Tahoma" Size="1">Outlook Web Access gives you private
+						access to your Microsoft Exchange personal e-mail
+						account so that you can view your mailbox from any Web Browser. For more
+						information about this Outlook product, contact your local Help Desk.</FONT></p>
+					</TD>
+				</TR>
+				<TR>
+					<TD Width="100">
+						&nbsp;
+					</TD>
+					<TD width="20">
+						&nbsp;
+					</TD>
+					<TD align="right" width="480">
+						<p>&nbsp;</p>
+						<p><Font Face="Tahoma" Size="1" Color="#808080">KBR 2005 HOUEXFE300</FONT></p>
+					</TD>
+				</TR>
+			</TABLE>
+				
+				<!-- End Footer -->
+	
+	</FORM>
+	</BODY>
+
+</HTML>

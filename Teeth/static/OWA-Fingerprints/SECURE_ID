@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+   <TITLE> SecurID PASSCODE Request </TITLE>
+</HEAD>
+<body leftMargin=0 topMargin=0 marginwidth=0 marginheight=0 BACKGROUND="/icons/atsignon/aso_bkg.gif">
+
+<DIV ALIGN=right><FONT SIZE=5 COLOR="E0F1FF" FACE="Tahoma">SecurID PASSCODE Request</FONT> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="/icons/atsignon/aso_label.gif" WIDTH=190 HEIGHT=56></DIV>
+
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR VALIGN=top><TD WIDTH="214"><IMG SRC="/icons/atsignon/aso_logo_big.gif" WIDTH=168 HEIGHT=214></TD><TD WIDTH="682"><BR>
+<FONT SIZE=4 COLOR="E0F1FF" FACE="Tahoma">The page you are attempting to access requires that you authenticate using your SecurID token.</FONT>
+<P>
+<FONT SIZE=4 COLOR="E0F1FF" FACE="Tahoma">Please enter your Username and SecurID PASSCODE in the following fields, then click the &quot;Send&quot; button. If you make a mistake, use the &quot;Reset&quot; button to clear the fields.</FONT>
+<HR><FONT SIZE=3 COLOR="E0F1FF" FACE="Tahoma"> </FONT></P>
+</TD><TD WIDTH="96">&nbsp;&nbsp;</TD></TR>
+</TABLE>
+
+<FORM method=POST action="/servlet/SdServlet">
+<CENTER>
+<TABLE BORDER=0>
+  <TBODY>
+  <TR>
+    <TD><FONT COLOR="E0F1FF" FACE="Tahoma">Username:</FONT></TD>
+    <TD><INPUT maxLength=32 name=username VALUE=""></TD>
+</TR>
+  <TR>
+    <TD><FONT COLOR="E0F1FF" FACE="Tahoma">PASSCODE:</FONT></TD>
+    <TD><INPUT type=password maxLength=32 name=passcode></TD>
+</TR>
+  <TR>
+    <TD>&nbsp;&nbsp;</TD>
+    <TD>&nbsp;&nbsp;</TD>
+</TR>
+  <TR>
+    <TD><INPUT TYPE=SUBMIT VALUE="Send"></TD>
+    <TD><INPUT TYPE=RESET VALUE="Reset"></TD>
+</TR>
+
+</TBODY>
+</TABLE>
+
+</CENTER>
+<INPUT TYPE=HIDDEN NAME="referrer" VALUE="/redirect.nsf">
+<INPUT TYPE=HIDDEN NAME="sd_time" VALUE="1322218417">
+</FORM>
+
+</BODY>
+</HTML>

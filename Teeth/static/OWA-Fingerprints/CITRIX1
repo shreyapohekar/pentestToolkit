@@ -1,0 +1,144 @@
+<HTML><HEAD><TITLE>Access Gateway</TITLE> 
+<link rel="SHORTCUT ICON" href="/vpn/images/AccessGateway.ico" type="image/vnd.microsoft.icon">
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content=noindex,nofollow,noarchive name=robots>
+<LINK href="/vpn/images/caxtonstyle.css" type=text/css rel=STYLESHEET>
+<script language="javascript" type="text/javascript" src="/vpn/nsshare.js"></script>
+<script language="JavaScript" type="text/javascript" src="login.js"></script>
+<SCRIPT language=JavaScript>
+// frame-busting script
+setTimeout ("changePage()", 0);
+function changePage()
+{
+   if (self.parent != self)
+	top.location=document.location;
+}
+function setFocus(obj)
+{
+   if (obj != null) {
+      obj.focus();
+   }
+}			
+//-->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR></HEAD>
+<BODY id=bodyTag onload="ns_fillName();">
+<!-- Copyright 2001-2005 Citrix Systems, Inc. All Rights Reserved -->
+
+<NOSCRIPT>
+<BR><BR>
+<table style="WIDTH: 100%">
+<tr>
+ 	<td align="center">
+		<table class="CTXMSAM_LogonFont">
+			<tr id="errorMessageRow">
+				<td class="glowBoxLeft">&nbsp;</td>                            
+				<td class="loginTableMidWidth">
+					<div id="feedbackArea">
+					<div id="feedbackStyle" class="feedbackStyleError">
+					<span id="errorMessageLabel" class="messageStyle">
+					JavaScript is either disabled in or not supported by the Web browser.  
+					To continue logon, use a Web browser that supports JavaScript or enable JavaScript in your current browser.
+					</span>
+					</div>
+					</div>
+				</td>                           
+				<td class="glowBoxRight">&nbsp;</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+<table style="display:none">
+</NOSCRIPT>
+
+<!-- Header -->
+<script language="javascript" type="text/javascript">
+	var isDemoVersion = ns_getcookie("vpxdemo");
+	UnsetCookie("vpxdemo");
+	CreateMainTable();
+	AddHeaderAndBar(isDemoVersion);
+</script>
+
+<!-- Logon box -->
+<tr class="mainPane" >
+    <td class="carbonBoxBottom" valign="bottom">
+        	<script language="javascript" type="text/javascript">
+            documentWriteGlowBoxUpper();
+            </script>
+                <FORM method="post" action="/cgi/login" name="vpnForm" autocomplete="off" style="margin:0"
+                 onsubmit="clean_name_cookie();"> 
+                    <table cellspacing="4" cellpadding="0" border="0" width=100%>
+                        <tr>
+                            <td class="CTX_ContentTitleHeader">
+	                            <div id="ctl08_loginAgentCdaHeaderText" style="padding-left:15px">Access Gateway</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="CTXMSAM_LogonFont">
+                                <div id="ctl08_loginAgentCdaHeaderText2" style="padding-left:15px">Please log on to continue.</div>
+                            </td>
+                        </tr>
+                        <tr border=10>
+	                        <td class="CTXMSAM_LogonFont" valign="top">
+	                        	<script language="javascript" type="text/javascript">    
+                				documentWriteActionPane();
+								</script>
+                                    <table width=70% id="ctl08_inputTable" class="CTXMSAM_LogonFont" cellspacing="0" cellpadding="4" border="0" style="border-width:0px;border-collapse:collapse;">									
+										<tr><td colspan=3></td></tr>
+										<tr>
+										<td align="right" style="padding-right:10px;"><span class="CTXMSAM_LogonFont">User&nbsp;name:</span></td>
+										<td colspan=2 style="padding-right:8px;"><input class="CTXMSAM_ContentFont" style="font-size: 8pt" type="text" title="Enter user name" name="login" size="30" maxlength="127" onFocus="loginFieldCheck()"style="width:100%;" /></td>
+										</tr>
+										<SCRIPT language=JavaScript>ns_showpwd();</SCRIPT>
+										<tr>
+										<td></td><td></td><td align="right"><input type="submit" value="Log On" class="CTX_CaxtonButton" onclick="ns_check();"  onmouseover="this.className='CTX_CaxtonButton_Hover';" onmouseout="this.className='CTX_CaxtonButton';" /></td>
+										</tr>
+									</table>
+                                </div>
+	                        </td>
+                        </tr>
+                    </table>
+
+<p><font face="arial" size="2">&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pres..com/ForgotPW/">Forgot your password? Click here</a> 
+</p>
+                    </FORM>
+                <script language="javascript" type="text/javascript">    
+                documentWriteGlowBoxLower();
+				</script>
+    </td>
+</tr>
+
+<!-- Error message box -->		    
+<tr>
+                <td align="center">
+                    <table class="CTXMSAM_LogonFont">
+                        <tr id="errorMessageRow">
+                            <td class="glowBoxLeft">&nbsp;</td>
+                            
+                            <td class="loginTableMidWidth">
+                            
+                                <script language='javascript'>ns_disperrmsg();</script>
+                            
+                            </td>
+                            
+                            <td class="glowBoxRight">&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+          
+<!-- Footer -->
+<script language="javascript" type="text/javascript">
+AddFooter();
+</script>
+</table>
+
+p><font face="arial" size="2"><a  href="https://pres.com/ForgotPW/">Forgot your password? Click here</a> 
+</p>
+
+<DIV id=scriptArea></DIV>
+</BODY>
+</HTML>

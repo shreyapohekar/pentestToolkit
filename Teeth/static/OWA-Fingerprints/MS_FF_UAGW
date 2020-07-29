@@ -1,0 +1,291 @@
+<HTML>
+<HEAD>
+<noscript>
+<meta http-equiv=refresh content="0;url=/InternalSite/InternalError.asp?error_code=115">
+<span style="position:relative; height:120%;">
+<h3>The site cannot be accessed</h3>
+To access this site, adjust the security settings in the browser to a lower level.<br>
+<a href='/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/InternalError.asp?error_code=123'>Click here</a>&nbsp;
+for more information.
+</span>
+</noscript>
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+
+<TITLE>Microsoft Forefront Unified Access Gateway - Login Page</TITLE>
+<LINK rel="STYLESHEET" type="text/css" href="/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/css/CustomUpdate/template.css">
+
+<script language="JavaScript">
+var loginDone = false;
+
+var timeoutURL = "";
+var bHandleSessionTimeout = false;
+
+	
+	try
+	{
+		if (parent.parent.document.getElementById("portal_frameset"))
+			parent.location.replace("/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/LogoffMsg.asp?site_name=empportal&secure=0");
+	}
+	catch(e)
+	{}
+	
+	bHandleSessionTimeout = true;
+	timeoutURL = "/InternalSite/InternalError.asp" + "?error_code=117";
+
+
+//for old browsers. To support document.getElementById
+if(document.all && !document.getElementById) 
+{    
+	document.getElementById = function(id) 
+	{
+		return document.all[id];
+	}
+}
+
+function SubmitForm()
+{	
+	if (loginDone)
+		return false;
+	for (i = 0 ; i < document.form1.length ; i++)
+	{ 
+		var tempobj = document.form1.elements[i];
+		if (tempobj.type == 'text' || tempobj.type == 'password')
+		{
+			if (tempobj.value.toString() == "")
+			{
+				alert("Complete all the required fields before logging on.");
+				SetFocus();
+				return false;
+			}
+		}
+	}
+
+	loginDone = true;
+
+
+	return true;
+}
+
+function ResetForm()
+{	
+	document.form1.reset();
+	SetFocus();
+	return false;
+}
+
+function SetFocus()
+{	
+	if (document.form1.elements[0].value.toString() == "")
+		document.form1.elements[0].focus();
+	else if (document.form1.elements[1].value.toString() == "")
+		document.form1.elements[1].focus();
+	else
+		document.form1.elements[2].focus();
+}
+
+function selectLang()
+{    
+	var today = new Date();
+	//remove host cookie in case it exists
+	var oldExpiredDate = new Date(today.getTime() - 365 * 24 * 60 * 60 * 1000); // -1 year
+	var oldExpiredDateGMT = oldExpiredDate.toGMTString();
+	var oldCookie = "WhlLanguage=NA; expires=" + oldExpiredDateGMT + ";path=/;";
+	
+	
+
+	document.cookie = oldCookie;
+	//set new cookie
+	var expiredDate = new Date(today.getTime() + 365 * 24 * 60 * 60 * 1000); // +1 year
+	var expiredDateGMT = expiredDate.toGMTString();
+	document.cookie = "WhlLanguage=" + document.form1.language.value + "; expires=" + expiredDateGMT + ";path=/; domain=.m.com;";	
+
+	SetClientComponentsUILanguage(document.form1.language.value);
+		
+    	// We need to reload the login page here, but only if the user hasn't already entered a username and/or password.
+    	var confirmChangeLang = true;
+    	for (i = 0 ; i < document.form1.length ; i++)
+	{ 
+		var tempobj=document.form1.elements[i];
+		if (tempobj.type=='text' || tempobj.type=='password')
+		{
+			if (tempobj.value.toString() != "")
+			{
+				confirmChangeLang = confirm("Do you want to reload the page in the selected language?\nAll data entered on the page will be deleted.");
+				break;
+			}
+		}
+	}  	
+    	if (confirmChangeLang)
+		self.location.replace("/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/RedirectToOrigURL.asp?abandon=0&site_name=empportal&secure=0");
+}
+
+function window_onload()
+{
+        
+	if(document.body)
+		document.body.style.overflow = "";
+	SetFocus();	
+	
+	getWhlCookie();
+	
+}
+
+function keyDetect(e) 
+{	
+	if(!e) 
+		e = window.event;
+	if(!e) 
+	{
+		return; 
+	}	
+	var theKey = e.which ? e.which : (e.keyCode ? e.keyCode : (e.charCode ? e.charCode : 0));
+	var agt = navigator.userAgent.toLowerCase();
+	if (theKey == 13 || theKey == 3)
+	{
+		if(SubmitForm())
+			document.form1.submit();
+	}
+}
+
+var capsLockNote = "Note: The Caps Lock key is on. Passwords are case-sensitive.";
+</script>
+<script language="JavaScript" src="/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/scripts/capsLock.js"></script>
+
+<script language="JavaScript" src="/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/scripts/loginTimeout.js"></script>
+
+</HEAD>
+<BODY height="100%" onload="window_onload();" style="overflow:hidden;">
+<table height="100%" id="loginMainTable" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+			<TABLE align="center" class="blueBorder" cellspacing="0" cellpadding="0">	
+				<tr >
+	<td id="companyTD" width="100%" colspan="3" style="position:relative;">
+	<span  class="header1 header1pos">
+		LOG IN	</span>
+		<table width="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="32px">
+					<img src="/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/images/CustomUpdate/headertopl.gif" align="absmiddle">
+				</td>
+				<td  style="background-image: url('/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/images/CustomUpdate/headertopm.gif'); background-repeat: repeat-x">
+					&nbsp;
+				</td>
+				<td width="520px"  style="background-image: url('/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/images/CustomUpdate/headertopr.gif');">
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td width="100%"  colspan="3" style="position:relative;">
+	<span   style="position:absolute;margin-left:20px;">
+			</span>
+	</td>
+</tr>
+				<tr>
+					<td  class="contentleft">								
+					</td>
+					<td align="center" class="internalTD">
+						<table width="100%" height="100%" cellspacing="0" cellpadding="0">
+							<FORM id=form1 name=form1 autocomplete="off" method=post action="/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/Validate.asp" onsubmit="return(SubmitForm());">
+							<tr>
+								<td valign="top">
+									<TABLE border=0 cellspacing="0" cellpadding="0" class="content">
+										
+										<tr>
+											<td class="msgText"></td>
+										</tr>
+									</TABLE>
+									<TABLE border=0 cellspacing="0" cellpadding="0" class="content">
+										
+											<TR>
+												<TD class="paramText">User name:</TD>
+												<TD><INPUT class="paramTextbox" TYPE="text" ID="user_name" NAME="user_name" maxLength="50" size="11"></TD>
+											</TR>
+											<TR>
+												<TD class="paramText">Password:</TD>
+												<TD><INPUT class="paramTextbox" TYPE="password" ID="password" NAME="password" maxLength="20" onkeypress="capsDetect(arguments[0]);" size="11"></TD>			
+											</TR>
+											
+													<INPUT type="hidden" ID="repository" NAME="repository" VALUE="AD" size="11">
+												
+										<TR height="25px">
+											<TD colspan="2" id="capsLockTD">&nbsp;</TD>
+										</TR>
+										
+										<tr>
+											<TD colspan="2" align="right">
+												<input border="0" class="button" type="submit" id="submit_button" value="Login">
+											</TD>
+											<td></td>
+										</tr>
+									</TABLE>
+								</td>
+							</tr>
+							<input type="hidden" name ="site_name" id="site_name" value="empportal">
+							<input type="hidden" name ="secure" id="secure" value="0">
+							<input type="hidden" name ="resource_id" id="resource_id" value="E2B4CA36299E46A1A2B211C2752ED118">
+							<input type="hidden" name ="login_type" id="login_type" value="2">
+                                                    
+						    <tr>
+						        <td>
+						            <table cellspacing="0" cellpadding="0" class="content" width="100%">
+						                <tr>
+								            <td id="openerExistsTD" class="notification" style="display:none">
+								            For security purposes, when you finish working with this site do one of the following:<li>Click the Logoff button to log off from the site.</li><li>Close all browser windows (including applications that are open in other windows).</li>
+								            </td>
+							            </tr>		
+							            <!-- Windows XP Service Pack 2  / 2003 / Vista Message - Start -->
+							            
+							            <tr>
+								            <td class="notification">
+	
+						                You have accessed a proprietary system that is for authorized use only. Individuals accessing the system consent to abide by the policies applicable to the system and are subject to having their activities on the system intercepted, monitored and recorded. Call 444-444-1111 to inquire about the policies. Unauthorized use of the system may be prosecuted. In addition, if monitoring reveals possible evidence of criminal activity, evidence of such monitoring may be provided to law enforcement officials.<br/>
+
+					                        <br>If you experience access problems contact the IT Service Center X
+				                            </td>
+				                        </tr>
+						            </table>
+						        </td>    
+						    </tr>
+						    
+						</TABLE>
+					</td>
+					<td  class="contentright">						
+					</td>
+				</tr>
+				<tr>
+	<TD width="100%"  colspan="3" style="position:relative;">
+	<span  class="bottomText bottomTextPos">
+		Copyright &#169; 2011 Company. All rights reserved.	</span>
+		<table width="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="47px">
+					<img src="/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/images/CustomUpdate/footerbgl.gif" align="absmiddle">
+				</td>
+				<td  style="background-image: url('/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/images/CustomUpdate/footerbgm.gif'); background-repeat: repeat-x">
+					&nbsp;
+				</td>
+				<td width="47px" style="background-image: url('/uniquesigf1379b4d4955786e6a6debe8fb1ce728/uniquesig0/InternalSite/images/CustomUpdate/footerbgr.gif');">
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+			</TABLE>
+		</td>
+	</tr>	
+</TABLE>
+</BODY>
+
+<script>
+if (window.opener && !window.opener.closed)
+{
+	document.getElementById("openerExistsTD").style.display = "";
+}
+</script>
+
+</HTML>

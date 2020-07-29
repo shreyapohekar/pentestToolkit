@@ -1,0 +1,291 @@
+<html>
+<head>
+<meta http-equiv="Content-Language">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Remote Access Portal - PleaseWait</title>
+<script src="/dana-na/css/ds.js"></script>
+<meta name="robots" content="none">
+<script>
+        WriteCSS();
+</script>
+<noscript>
+<link rel="stylesheet" href="/dana-na/css/ds.css"></link>
+</noscript>
+<script src="/dana-na/js/checkbrowser.js"></script>
+<script src="/dana-na/js/clientSetup.js"></script><script src="/dana-na/js/intermediate.js"></script>
+<script>
+
+var error_message = '';
+var start_status = 1; 
+var check_browser = new CheckBrowser();
+var g_delivery = '';
+var g_checkbCookieSet = false;
+var g_HCLoading = 'Host Checker';
+var g_isUAC = '0';
+
+function initBulb (component)
+{
+	document.getElementById(component + 'bulb').style.color = "#808080";
+}
+
+function setSucceeded(component)
+{
+    document.getElementById(component + 'bulb').style.color = "#03CA08";
+    setStatus(1);
+}
+
+function setFailed(component)
+{
+    document.getElementById(component + 'bulb').style.color = "#990000";
+    setStatus(0);
+}
+
+function setStarted(component)
+{
+	document.getElementById(component).style.fontWeight = "bold";
+}
+
+function setFinished(component)
+{
+	document.getElementById(component).style.fontWeight = "normal";
+}
+function gowelcome()
+{
+    if (g_delivery != '') {
+        setCheckBrowserCookie ();
+    }
+	if (getStatus()) {
+		document.getElementById('endstatus').innerHTML = 'Components loaded successfully';
+        var url = window.location;
+        if (dsIsVista() || dsIsWinXP()) {
+            try {
+                var SetupCtrl;
+                if (document.deliveryType == 'java') {
+                    var doc = getIFrameDocument("controlframe");
+                    if (typeof(doc) == "undefined") {
+                        return false;
+                    }
+                    SetupCtrl = doc.getElementById("NeoterisSetup");
+                }
+                else if (document.deliveryType == 'activex') {
+                    SetupCtrl = document.getElementById("NeoterisSetup");
+                }
+                if (SetupCtrl != "undefined") {
+                    var data = SetupCtrl.retrieveData("HCDATA");
+                    if (data && data.indexOf("AED={") != -1) {
+                        // AED getting initialised
+                        var aedParams = aedParseProgressString (data);
+                        var aedInitComplete = 0;
+                        if (aedParams.statusInitialization == gAedProgress.SUCCESS ||aedParams.statusInitialization==gAedProgress.FAIL) {
+                            if (aedParseParam(data, 'HSStatus:')) {
+                                aedInitComplete = 1;
+                            }
+                        }
+                        if (!aedInitComplete) {
+                            if (url.toString().indexOf('?') == -1) {
+                                url += "?type=inter";
+                            }
+                            else {
+                                url += "&type=inter";
+                            }
+                        }
+                    }
+                }
+            }
+            catch (e) {
+            }
+        }
+        window.location = url;
+	}
+	else  {
+		document.getElementById('endstatus').innerHTML = error_message;
+	    setTimeout("window.location = window.location;", 5000);
+    }
+}
+
+function setCCSucceeded()
+{
+	setSucceeded('cc');
+}
+function setHCSucceeded()
+{
+	setSucceeded('hc');
+}
+
+function getComponent(component)
+{
+    return document.getElementById(component + 'bulb');
+}
+
+function failComponents()
+{
+    if (getComponent('hc')) setFailed('hc');
+    if (getComponent('cc')) setFailed('cc');
+    if (getComponent('ep')) setFailed('ep');
+}
+
+function setStatus(s)
+{
+    start_status = s;
+}
+function getStatus()
+{
+    return start_status;
+}
+function setErrorMessage(aMsg)
+{
+    error_message = aMsg;
+}
+
+function loadIframe(iframeName, url) {
+   var doc = getIFrameDocument(iframeName);
+   if (typeof(doc) == "undefined") {
+    return false;
+   }
+   doc.location.href = url;
+   return true;
+}
+
+function getIFrameDocument(iframeName) {
+    var fr;
+    var frWindow;
+    var frDocument;
+    if ( window.frames && window.frames[iframeName] ) {
+        frWindow = window.frames[iframeName];
+    }else if (document.getElementById(iframeName) ) {
+        frWindow = document.getElementById(iframeName).contentWindow;
+    }else {
+        return ;
+    }
+
+    fr = document.getElementById(iframeName);
+    if (frWindow && frWindow.document) 
+        frDocument = frWindow.document;
+    else if (fr && fr.contentDocument) 
+        frDocument = fr.contentDocument;
+
+    return frDocument;
+}
+
+function checkb() {
+    g_delivery = 'none';    g_delivery = 'none';
+    if (dsIsActiveXEnabled()){
+        g_delivery = 'activex';
+    }else if (dsIsJavaEnabled()) {
+        g_delivery = 'java';
+    }    document.deliveryType = g_delivery;
+    return g_delivery;
+}
+
+// Redirect to CGI to download the Juniper Setup Client .exe 
+function redirectToSetupCGI() {
+    var href = window.location.href;
+    var redirectURL = "/dana-na/setup/download.cgi?r=" + escape(href);
+    if (dsIsMac()) {                    
+        redirectURL = redirectURL + "&platform=Macintosh";
+    }                                                               
+    window.location = redirectURL;                                          
+}       
+
+function loadControlFrame()
+{
+    try {
+        loadIframe ('controlframe', window.location);
+    } catch (e) {
+        failComponents();
+        setTimeout("gowelcome();", 0);
+    }
+}
+
+function setCheckBrowserCookie () {
+    if (g_checkbCookieSet == false) {
+        document.cookie = "DSCheckBrowser=" + escape(g_delivery) + "; path=/;secure";
+        g_checkbCookieSet = true;
+    }
+}
+
+function submitBrowserInfo() {
+    setCheckBrowserCookie ();
+    if (g_delivery == 'none') {
+        setErrorMessage ('Your browser does not support either ActiveX controls or Java applets. Please contact your administrator.');
+        failComponents ();
+        gowelcome();
+    } else {
+        loadControlFrame();
+    }
+}
+
+function startOnLoad()
+{
+ var c = checkb();
+ if ((c == 'none') && (dsIsVista() || dsIsWinXP() || dsIsMac())) {
+     failComponents ();
+     setTimeout("redirectToSetupCGI();", 7000);
+     return;
+ }
+    setTimeout ("submitBrowserInfo();", 2000);}
+</script>
+
+
+
+<script>
+<!--
+if (window.top != self) {
+	top.location = location;
+}
+//--></script>
+</head>
+
+<body bgcolor="#FFFFFF" color="#000000" link="#3366CC" vlink="#CC6699" alink="#3366CC" leftmargin="0" topmargin="0" rightmargin="0" marginwidth="0" marginheight="0"  onload="startOnLoad()" >
+
+
+<table id="table_PleaseWait_1" border="0" width="100%" cellspacing="0" cellpadding="3">
+        <tr>
+            <td bgcolor="616365"><img border="0" src="/dana-na/auth/welcome.cgi?p=logo" alt="Logo"></td>
+	        <td bgcolor="616365" align="right">&nbsp;</td>
+
+        </tr>
+</table>
+<table id="table_PleaseWait_2" cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+                <td bgcolor="#000000" colspan="2"><img border="0" src="/dana-na/imgs/space.gif" width="1" height="1"></td>
+        </tr>
+</table>
+<blockquote>
+        <table id="table_PleaseWait_3" border="0" cellpadding="2" cellspacing="0">
+		<tr><td nowrap ><font face="verdana,sans-serif" size="3"><b>Loading Components...</b></font></td></tr>
+		<tr><td nowrap ><font face="verdana,sans-serif" size="2">Please wait. This may take several minutes.</font></td></tr>
+        </table>
+
+	<table id="table_PleaseWait_4" cellpadding="4" cellspacing="0" border="0" width="100%">	<tr>
+		<td><img src="/dana-na/imgs/space.gif" width="30" height="1"></td>
+		<td><span style="font-weight:bold; color:#808080; font-size:135%;" id="hcbulb">&#0149;</span></td>
+		<td width="100%"><span><div id="hc">Host Checker</div></span></td>
+	</tr>	<tr>
+	<td> </td>
+	<td> </td>
+	<tr>
+        <table id="table_PleaseWait_5" border="0" cellpadding="2" cellspacing="0">
+		<tr><td nowrap ><font face="verdana,sans-serif" size="2">
+        <div id="continue">If an error prevents a component from loading properly, you can <a href="javascript:void(0)" onclick="javascript:gowelcome();return false;">click here</a> to continue. Not all functionality may be available.         </div></font></td></tr>
+        </table>
+	</tr>
+	<tr>
+		<td><img src="/dana-na/imgs/space.gif" width="30" height="1"></td>
+	</tr>
+	<tr>
+		<td><img src="/dana-na/imgs/space.gif" width="30" height="1"></td>
+	</tr>
+        <table id="table_PleaseWait_6" border="0" cellpadding="2" cellspacing="0">
+		<tr><td nowrap ><font face="verdana,sans-serif" size="2"><div id="endstatus"></div></font></td></tr>
+        </table>
+	</table>
+</blockquote>
+<OBJECT classid="clsid:F27237D7-93C8-44C2-AC6E-D6057B9A918F"
+ id=NeoterisSetup  codebase="\dana-cached\sc\JuniperSetupClient.cab#version=2,1,1,1"
+width=0 height=0 >
+</object><p align="left"><iframe id="controlframe" name="controlframe" src="/dana-na/html/blank.html" width="1" height="1" frameborder="0" scrolling="NO"></iframe></p>
+
+</body>
+
+</html>

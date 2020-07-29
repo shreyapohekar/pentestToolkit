@@ -1,0 +1,38 @@
+<!-- 
+  Copyright (c) 2004-2006 by Cisco Systems, Inc.
+  All rights reserved.
+ -->
+<html>
+<head>
+
+<meta http-equiv="Window-target" content="_top">
+<title>Cisco Systems, Inc. Network Access</title>
+<style type="text/css">
+ .title {font-family: sans-serif; color: white; font-weight: bold; font-size: 10pt}
+
+
+
+
+
+</style>
+</head>
+<body bgcolor=white alink="#333366" vlink="#333366" link="#333366">
+
+<script language="JavaScript1.1">
+function doRefresh()
+{
+	location.replace("/netaccess/connstatus.html");
+}
+</script>
+
+<FORM method=post ACTION="/netaccess/connstatus.html">
+
+<INPUT type=hidden name=sid VALUE="2148984600">
+
+
+
+<h3>Network User Authentication</h3><p><p>Network User Authentication is <i>required</i>.</p> <table border cellpadding=5><tr><td><input type=submit width=120 style="width:120" name=login value="Log In Now"></td><td><b>You are not logged in.</b><br>User IP: 197.87.129.130<br></td></tr></table><script language="JavaScript">document.forms[0].login.focus()</script>
+
+</FORM>
+</body>
+</html>

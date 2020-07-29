@@ -1,0 +1,274 @@
+<html>
+<head>
+<meta http-equiv="Content-Language">
+<meta http-equiv="Content-Type" content="text/html">
+<meta name="robots" content="none">
+<title>Webmail - Sign-In</title>
+
+<script src="/dana-na/css/ds.js"></script>
+<script>
+        WriteCSS();
+</script>
+<noscript>
+<link rel="stylesheet" href="/dana-na/css/ds.css">
+</noscript>
+
+<script>
+<!--
+if (window.top != self) {
+	top.location = location;
+}
+if(window.name == "newpincancel" || window.name == "nexttokencancel") {
+   window.close();
+}
+//--></script>
+<script>
+<!--
+function hideJSWarn() {
+    if(window.top == self) {
+        document.getElementById('noJSWarn').style.display = "none";
+    }
+}
+//--></script>
+
+<script src="/dana-na/auth/lastauthserverused.js"></script>
+<script>function deletepreauth() {
+    document.cookie = "DSPREAUTH="+ escape("")+ ";path=/dana-na/;expires=12-Nov-1996";
+}
+</script>
+<script type="text/javascript" src="PluginDetect.js"></script>
+  <script> 
+  <!--
+  
+	var detectAgent = navigator.userAgent.toLowerCase();
+	var is_win = ( (detectAgent.indexOf("win") != -1) || (detectAgent.indexOf("16bit") != -1) );
+	var BrowserDetect = {
+		init: function () {
+			this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+			this.version = this.searchVersion(navigator.userAgent)
+				|| this.searchVersion(navigator.appVersion)
+				|| "an unknown version";
+			this.OS = this.searchString(this.dataOS) || "an unknown OS";
+		},
+		searchString: function (data) {
+			for (var i=0;i<data.length;i++)	{
+				var dataString = data[i].string;
+				var dataProp = data[i].prop;
+				this.versionSearchString = data[i].versionSearch || data[i].identity;
+				if (dataString) {
+					if (dataString.indexOf(data[i].subString) != -1)
+						return data[i].identity;
+				}
+				else if (dataProp)
+					return data[i].identity;
+			}
+		},
+		searchVersion: function (dataString) {
+			var index = dataString.indexOf(this.versionSearchString);
+			if (index == -1) return;
+			return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+		},
+		dataBrowser: [
+			{
+				string: navigator.userAgent,
+				subString: "Chrome",
+				identity: "Chrome"
+			},
+			{ 	string: navigator.userAgent,
+				subString: "OmniWeb",
+				versionSearch: "OmniWeb/",
+				identity: "OmniWeb"
+			},
+			{
+				string: navigator.vendor,
+				subString: "Apple",
+				identity: "Safari",
+				versionSearch: "Version"
+			},
+			{
+				prop: window.opera,
+				identity: "Opera"
+			},
+			{
+				string: navigator.vendor,
+				subString: "iCab",
+				identity: "iCab"
+			},
+			{
+				string: navigator.vendor,
+				subString: "KDE",
+				identity: "Konqueror"
+			},
+			{
+				string: navigator.userAgent,
+				subString: "Firefox",
+				identity: "Firefox"
+			},
+			{
+				string: navigator.vendor,
+				subString: "Camino",
+				identity: "Camino"
+			},
+			{		// for newer Netscapes (6+)
+				string: navigator.userAgent,
+				subString: "Netscape",
+				identity: "Netscape"
+			},
+			{
+				string: navigator.userAgent,
+				subString: "MSIE",
+				identity: "Explorer",
+				versionSearch: "MSIE"
+			},
+			{
+				string: navigator.userAgent,
+				subString: "Gecko",
+				identity: "Mozilla",
+				versionSearch: "rv"
+			},
+			{ 		// for older Netscapes (4-)
+				string: navigator.userAgent,
+				subString: "Mozilla",
+				identity: "Netscape",
+				versionSearch: "Mozilla"
+			}
+		],
+		dataOS : [
+			{
+				string: navigator.platform,
+				subString: "Win",
+				identity: "Windows"
+			},
+			{
+				string: navigator.platform,
+				subString: "Mac",
+				identity: "Mac"
+			},
+			{
+				   string: navigator.userAgent,
+				   subString: "iPhone",
+				   identity: "iPhone/iPod"
+			},
+			{
+				string: navigator.platform,
+				subString: "Linux",
+				identity: "Linux"
+			}
+		]
+
+	};
+	BrowserDetect.init();
+
+	function detectPopupBlocker()
+	{ 
+		var test = window.open("about:blank","","directories=no,height=100,width=100,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,top=5000,location=no");
+		if(test)
+		{ // not blocked 
+			test.close(); 
+			return 1; 
+		} 
+		else
+		{ // blocked
+			return 0; 
+		} 
+	}
+
+    function CustomFinishLoad()
+	{
+		if (BrowserDetect.browser == "Explorer" || BrowserDetect.browser == "Firefox" || BrowserDetect.browser == "Safari")
+		{
+			if (BrowserDetect.browser == "Explorer")
+			{
+				if (detectPopupBlocker() == 0) document.getElementById('popUpWarning').style.display = "";
+			}
+		}
+		else window.location = "http://www.a.com/remote/update.asp?app=owa&sasrc=" + encodeURI(window.location.href);
+		FinishLoad(1);
+		hideJSWarn();
+	}
+	
+  //-->
+  </script>
+
+</head>
+
+<body onload="CustomFinishLoad()" style="font-family:arial,verdana,helvetica;background:url(/dana-na/auth/url_26/imgs/bgLines.png) repeat-x;background-color:#E8E8E8;margin:0;padding:0;height:100%;border:none;">
+<object classid="clsid:F27237D7-93C8-44C2-AC6E-D6057B9A918F" id="JuniperSetup" width="0" height="0"></object>
+<div id="noJSWarn" class="cssSecurityWarning">Your browser is executing scripts on this page. If this message persists, please make sure that you are visiting a correct site and JavaSript support is enabled in your browser, and then try again.</div>
+<div id="plugindetect"></div>
+<table style="width:1002px;margin-left:auto;margin-right:auto;margin-top:0px;vertical-align:top;height:100%;" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td style="height:100%;vertical-align:top;"><img src="/dana-na/auth/url_26/imgs/bgTableShadowLeft.jpg"></td>
+		<td style="height:100%;vertical-align:top;">
+			<table style="width:982px;background-color:white;height:100%;vertical-align:top;" cellspacing="0" cellpadding="5">
+				<tr><td style="background:url(/dana-na/auth/url_26/imgs/bdTop.png) repeat-x;height:12px;"></td></tr>
+				<tr><td style="height:77px;"><img src="/dana-na/auth/url_26/imgs/logo.png"></td></tr>
+				<tr><td style="background:url(/dana-na/auth/url_26/imgs/bdBottom.png) repeat;height:14px;"></td></tr>
+				<tr style="vertical-align:top;">
+					<td style="height:100%;padding:25px;">
+					  <form name="frmLogin" action="login.cgi" method="post" autocomplete="off" onsubmit="return Login(1)"> 
+
+						<input type="hidden" name="tz_offset">
+
+						<table border="0" cellpadding="2" cellspacing="0">
+							<tr>
+								<td nowrap="nowrap" valign="top" style="width:230px;font-size:160%;font-family:arial,verdana,helvetica;font-weight:bold;">Webmail<br><br><br>
+																		  <table border="0" cellspacing="0" cellpadding="2">									<tr>
+											  <td style="font-family:arial,verdana,helvetica;font-size:100%;">												Username	  </td>
+											  <td>&nbsp;</td>
+											  <td><input type="text" name="username" style="width:120px;border: 1px solid gray;"></td>
+											</tr>											<tr>
+											  <td style="font-family:arial,verdana,helvetica;font-size:100%;">												Password	  </td>
+											  <td>&nbsp;</td>
+											  <td><input type="password" name="password" style="width:120px;border: 1px solid gray;"></td>
+											</tr>											<tr>											<input type="hidden" name="realm" value="OWA - Realm"">											</tr>											<tr>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+												<td><input type="submit" value="Sign In" name="btnSubmit">&nbsp;</td>
+											</tr>
+									  </table>
+								</td>
+								<td valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+								<td valign="top">
+								  <table border="0" cellspacing="10" cellpadding="0">
+										<tr id="popUpWarning" style="display:none;">
+											<td valign="top" style="font-family:arial,verdana,helvetica;font-size:80%;font-weight:bold;background-color:yellow;color:black;padding:25;">
+												A pop-up blocker was detected on your system.  Please disable the pop-up blocker for this website.  You can find instructions for disabling most pop-up blockers at <a href="http://www.hotcomm.com/FAQ/FAQ_popups.asp" target="_blank">http://www.hotcomm.com/FAQ/FAQ_popups.asp</a>.
+											</td>
+										</tr>
+										<tr style="display:none;">
+											<td valign="top" style="font-family:arial,verdana,helvetica;font-size:80%;font-weight:bold;background-color:yellow;color:black;padding:25;">
+											</td>
+										</tr>
+										<tr>
+											<td valign="top" style="font-family:arial,verdana,helvetica;font-size:80%;background-color:gray;color:white;padding:25;">
+												<b>Consent to Monitor</b>
+												<br><br>This system may only be used by individuals with approved access authorization. 
+												Any individual using this system without proper authorization or in excess of assigned user authority is subject to disciplinary action under corporate policy and/or criminal prosecution. 
+												System administrators and security personnel routinely monitor this system for performance, maintenance and unauthorized activity.
+												<br><br>All individuals who access and use this system are subject to having their activities 
+												monitored and recorded. In the event that system monitoring reveals improper use of this system, information from these monitoring systems will be provided to support disciplinary action or criminal prosecution.
+												<br><br>All individuals using this system expressly consent to such monitoring and that they will not use this system in violation of this Corporation's Information Systems Security Policy. If you do not consent to the terms and conditions of this system access warning banner, Logoff and/or Disconnect.
+											</td>
+										</tr>
+								  </table>
+								</td>
+							</tr>
+						  </tbody>
+						</table>
+					  </form>
+					</td>
+				</tr>
+				<tr>
+					<td style="font-family:arial,verdana,helvetica;font-size:80%;vertival-align:bottom;padding:25px;">
+						If you encounter any problems with this site, please contact the Global Support Center at 832-636-2900 or toll-free at 866-707-1201.					
+					</td>
+				</tr>
+				<tr><td style="background:url(/dana-na/auth/url_26/imgs/bgFooter.png);height:30px;vertical-align:bottom;font-size:60%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy</td></tr>
+			</table>
+		</td>
+		<td style="height:100%;vertical-align:top;"><img src="/dana-na/auth/url_26/imgs/bgTableShadowRight.jpg"></td>
+	</tr>
+</table>
+</body>
+</html>
